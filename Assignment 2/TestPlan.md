@@ -1,7 +1,6 @@
-#Testplan
+# Testplan
 
 ## 1. Introduction
-
 ### 1.1 Purpose
 
 ### 1.2 Background
@@ -9,18 +8,20 @@
 ### 1.4 Goals
 - SDC
  - easy deploy
- - wide range: many deplayable devices
-- Deployer
+ - wide range: many deployable devices
+- Developer
  - minimal configuration
- - easy integration: clear API
+ - easy integration: unambiguous API
 - Customer
  - easy access
  - absolute security
 
 ### 1.3 Scope
 
-### 1.5 References 
-
+### 1.5 References
+All references are in the subfolder "References".
+1. [WebServer_Requirements_v1.0][1]
+2. Scenario_paper_v1.0
 
 ## 2. Requirements for Test
 
@@ -40,3 +41,5 @@
 - [ ] Report the result of testing in a test report.
 
 
+
+[1] : https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/WebServer_Requirements_v1.0.pdf
