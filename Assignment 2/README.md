@@ -41,4 +41,4 @@
 [Test plan example (upedu.org)](http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf)
 
 
-[ref]: http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf
+[ [ref]]: http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf
