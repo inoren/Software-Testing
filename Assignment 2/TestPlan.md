@@ -20,7 +20,7 @@
 
 ### 1.5 References
 All references are in the subfolder "References".
-1. WebServer_Requirements_v1.0
+1. [WebServer_Requirements_v1.0][1]
 2. Scenario_paper_v1.0
 
 ## 2. Requirements for Test
@@ -39,3 +39,7 @@ All references are in the subfolder "References".
 - [ ] Write manual test cases for the application
 - [ ] Execute the test-plan (test the software)
 - [ ] Report the result of testing in a test report.
+
+
+
+[1] : https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/WebServer_Requirements_v1.0.pdf
