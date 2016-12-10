@@ -1,9 +1,9 @@
 #header
 
-some normal text
-*italic text*
-**bold text**
-**italic and __bold text__**
+some normal text<br />
+*italic text*<br />
+**bold text**<br />
+**italic and __bold text__**<br />
 ~~scretch text~~
 
 ###dot list
