@@ -42,9 +42,9 @@ some normal text
 Two ways to display images
 
 Inline-style (aka directly in-use): 
-![ball images with inline](http://weknowyourdreams.com/images/ball/ball-05.jpg "Inline style")
+![characture image with inline](http://vignette4.wikia.nocookie.net/mrmen/images/5/52/Small.gif/revision/latest?cb=20100731114437 "Inline style")
 
 Reference-style: 
-![ball images with reference][ball]
+![characture image with reference][characture]
 
-[ball]: http://weknowyourdreams.com/images/ball/ball-05.jpg "Reference style"
+[characture]: http://vignette4.wikia.nocookie.net/mrmen/images/5/52/Small.gif/revision/latest?cb=20100731114437 "Reference style"
