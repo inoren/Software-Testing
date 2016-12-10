@@ -1,5 +1,7 @@
 #Task 2 - planning etc..
 
+##[Testplan](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md)
+
 [Coursepress task 2](https://coursepress.lnu.se/kurs/mjukvarutestning/labs/a2/)<br />
 [Web Server, Requirements](https://docs.google.com/document/d/1fgQngHIZ4_aGIeB2S9YOBCghcBN9EEKBiaN-71MbGac/edit#)
 
