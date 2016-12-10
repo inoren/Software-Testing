@@ -29,4 +29,5 @@
 
 ##Help
 [Test plan Template](http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf)<br />
-[Markdown library](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Library.md)
+[Markdown library](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Library.md)<br />
+[Strategic Planning for Dummies](https://www.edmonton.ca/programs_services/documents/PDF/StrategicPlanningForDummies.pdf)
