@@ -31,8 +31,12 @@
 
 
 ##Help
-[Test plan Template](http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf)<br />
+[Test plan Template][ref]<br />
+[I reference the same as above][ref]<br />
 [Markdown library](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Library.md)<br />
 [Strategic Planning for Dummies](https://www.edmonton.ca/programs_services/documents/PDF/StrategicPlanningForDummies.pdf)<br />
 [Arifact: Test Plan](http://upedu.org/process/artifact/ar_tstpl.htm#Templates)<br />
 [Test plan example (upedu.org)](http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf)
+
+
+[ref] : http://upedu.org/templates/cs/TEST/upedu_ex_tstpl.pdf
