@@ -42,9 +42,9 @@ some normal text
 Two ways to display images
 
 Inline-style (aka directly in-use): 
-![ball images with inline](http://weknowyourdreams.com/image.php?pic=/images/ball/ball-05.jpg "Inline style")
+![ball images with inline](http://weknowyourdreams.com/images/ball/ball-05.jpg "Inline style")
 
 Reference-style: 
 ![ball images with reference][ball]
 
-[ball]: http://weknowyourdreams.com/image.php?pic=/images/ball/ball-05.jpg "Reference style"
+[ball]: http://weknowyourdreams.com/images/ball/ball-05.jpg "Reference style"
