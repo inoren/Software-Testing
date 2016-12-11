@@ -3,11 +3,11 @@
 ## 1. Introduction
 ### 1.1 Purpose
 The purpose of this test plan document is to support the followings objectives:
-1. Evaluate the current state and find possible risks in the given open source project
-2. Illustrates the recommended requirements for test
-3. Explain and recommend the testing strategies
-4. Classify the appropriate resources and bring an evaluation of the test achievements
-5. List the result of test project  
+- Evaluate the current state and find possible risks in the given open source project
+- Illustrates the recommended requirements for test
+- Explain and recommend the testing strategies
+- Classify the appropriate resources and bring an evaluation of the test achievements
+- List the result of test project  
 
 ### 1.2 Background
 My Web Server is an open source software. The Software Development Company (SDC) plans to use this server on large-scale of Internet of Things (IOT) in order to display the information from sensors. SDC wants to evaluate whether this server fulfills all of their security, functional and performance needs.  
