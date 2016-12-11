@@ -24,6 +24,7 @@ My Web Server is an open source software. The Software Development Company (SDC)
  - absolute security
 
 ### 1.3 Scope
+This test plan applies to Data and Database Integrity Testing, Unit Testing, Function Testing, Business Cycle Testing, User Interface Testing, Performance Testing, Load Testing, Stress Testing, Security & Access Testing, API Testing, Configuration Testing, Installation Testing. All these tests will be conducted in this iteration. Information regarding the aim of these tests can be find in Section 2 (Requirements for Test). 
 
 ### 1.5 References
 All references are in the subfolder "References".
