@@ -169,8 +169,20 @@ The default configuration used:
 - shared resource folder: /MyWebServer/tests/se/lnu/http/resources/inner
 
 ## 5. Project Milestones
-The dates are just estimated and may vary since iteration-efforts may depend on each other. So planning and working will be handled agile as defined in the test-plan.
+The dates are just estimates and may vary since iteration-efforts may depend on each other. So planning and working will be done in an agile-way as defined in the test-plan.
 
 ![Project_Milestones_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/ProjectMilestonesTable.png "Inline style")
 
 ## 6. Deliverables
+
+### 6.1 Test Plan
+The Test Plan will define *who* does *what* in which iteration. It divides the test-effort into manageable iterations and sets time-limitations.
+
+### 6.2 Test Model
+The Test Model will define all the test cases and will reference the test procedures, tools and test-scripts which are associated with each test-case.
+
+### 6.3 Test Results
+For each test executed a test-result form will be created. This should include the name or ID of the test-case or specification it relates to, the execution-date, name of the tester and the result of the test.
+
+### 6.4 Test Report
+A final evaluation of the test-activities and their results will be presented.
