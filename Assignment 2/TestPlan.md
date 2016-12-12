@@ -161,13 +161,16 @@ The server module will mainly run on the defined PC's as localhost. For some fun
 
 The server test stations must have the following software installed and properly configured:
 
-JAVA 8 JDK
+- JAVA 8 JDK
 
 The server needs to be setup locally or remotely to run each test suit.
 The default configuration used:
-port: 1091
-shared resource folder: /MyWebServer/tests/se/lnu/http/resources/inner
+- port: 1091
+- shared resource folder: /MyWebServer/tests/se/lnu/http/resources/inner
 
 ## 5. Project Milestones
+The dates are just estimated and may vary since iteration-efforts may depend on each other. So planning and working will be handled agile as defined in the test-plan.
+
+![Project_Milestones_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/ProjectMilestonesTable.png "Inline style")
 
 ## 6. Deliverables
