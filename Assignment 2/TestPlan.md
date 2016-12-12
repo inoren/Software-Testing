@@ -24,7 +24,7 @@ My Web Server is an open source software. The Software Development Company (SDC)
  - absolute security
 
 ### 1.3 Scope
-This test plan applies to Data and Database Integrity Testing, Unit Testing, Function Testing, Business Cycle Testing, User Interface Testing, Performance Testing, Load Testing, Stress Testing, Security & Access Testing, API Testing, Configuration Testing and Installation Testing. All these tests will be conducted in this iteration. Information regarding the aim of these tests can be find in Section 2 (Requirements for Test). 
+This test plan applies to Data and Database Integrity Testing, Unit Testing, Function Testing, Business Cycle Testing, User Interface Testing, Performance Testing, Load Testing, Stress Testing, Security & Access Testing, API Testing, Configuration Testing and Installation Testing. All these tests will be conducted in this iteration. Information regarding the aim of these tests can be find in Section 2 (Requirements for Test).
 
 ### 1.5 References
 All references are in the subfolder "References".
@@ -32,10 +32,13 @@ All references are in the subfolder "References".
 1. [WebServer_Requirements_v1.0][1]
 2. [Scenario_paper_v1.0] [2]
 
+[1]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/WebServer_Requirements_v1.0.pdf
+[2]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/Scenario_paper_v1.0.pdf
+
 ## 2. Requirements for Test
 The listing below (uses cases, functional-requirements and non-functional-requirements) identifies all items that have been identified as targets for testing. It represents what will be tested.
 
-### 2.1 Data and Database Integrity Testing
+### 2.1 Data Integrity Testing
 
 - Requirements Document, Use Case 3: "System delivers the shared resource to the browser[[1]]"
 - Verify access to shared resource folder
@@ -89,6 +92,18 @@ The listing below (uses cases, functional-requirements and non-functional-requir
 ### 2.14 Acceptance Testing
 - None
 
+## 3. Test Strategy
+The Test Strategy presents a recommended approach of testing the identified testing-targets. The previous section described *what* are the testing-targets.
+This section will describe *how* it will be tested.The main considerations for the test strategy are the techniques to be used and the criterion for knowing when the testing is completed.
 
-[1]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/WebServer_Requirements_v1.0.pdf
-[2]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/Scenario_paper_v1.0.pdf
+### 3.1 Testing-types
+
+#### 3.1.1 Data Integrity Testing
+
+![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/Testing_Strategy_DatabaseIntegrity.pdf "Inline style")
+
+#### 3.1.2 Unit Testing
+
+#### 3.1.3 Function Testing
+
+#### 3.1.4 Business Cycle Testing
