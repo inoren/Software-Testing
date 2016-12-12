@@ -151,7 +151,10 @@ The following tools will be employed for testing:
 The resources for the MyWebServer test effort are the SDC-employees of the testing-team.
 
 ### 4.1 Workers
-![Resource_Workers_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/ResourcesWorkersTable.png "Inline style")
+![Resources_Workers_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/ResourcesWorkersTable.png "Inline style")
 
 
 ### 4.2 System
+The server module will mainly run on the defined PC's as localhost. For some function tests it will be emulated on a virtual machine. The access tests will be done from various client systems to ensure compatibility and meet the requirements. Whole test-suits will just run on the listed PC-OS's.
+
+![Resources_System_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SystemResourcesTable.png "Inline style")
