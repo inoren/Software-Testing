@@ -101,33 +101,36 @@ This section will describe *how* it will be tested.The main considerations for t
 
 #### 3.1.1 Data Integrity Testing
 The data access and process should be tested within the running system. The retrieval of data can be tested in an automated suite, while the integrity and correctness must be tested manually.
-![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/Testing_Strategy_DatabaseIntegrity.pdf "Inline style")
+![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png "Inline style")
 
 #### 3.1.2 Unit Testing
+![Unit_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UnitTesting.png "Inline style")
 
 #### 3.1.3 Function Testing
 The testing of the application should focus on any target requirements that can be traced directly from the use-cases or the Scenario-goals. This type of testing is based up on black-box-testing, while testing the completeness of the existing tests is done with code-coverage and white-box testing.
 
+![Function_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/FunctionTesting.png "Inline style")
+
 #### 3.1.4 Business Cycle Testing
 
 #### 3.1.5 User Interface Testing
-
+![User_Interface_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UserInterfaceTesting.png "Inline style")
 #### 3.1.6 Performance Testing
-
+![Performance_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/PerformanceTesting.png "Inline style")
 #### 3.1.7 Load Testing
 
 #### 3.1.8 Stress Testing
 None
 #### 3.1.9 Security & Access Testing
 The testing will depend on an external tool which should be up-to-date with the current standards and verifies a proper level of security for known vulnerabilities.
-
+![Security_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/SecurityTesting.png "Inline style")
 #### 3.1.10 Recovery Testing
 None
 
 #### 3.1.11 API Testing
 
 #### 3.1.12 Configuration Testing
-
+![Configuration_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/ConfigurationTesting.png "Inline style")
 #### 3.1.13 Installation Testing
 
 #### 3.1.14 Acceptance Testing
