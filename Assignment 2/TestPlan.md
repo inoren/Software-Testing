@@ -101,6 +101,7 @@ This section will describe *how* it will be tested.The main considerations for t
 
 #### 3.1.1 Data Integrity Testing
 The data access and process should be tested within the running system. The retrieval of data can be tested in an automated suite, while the integrity and correctness must be tested manually.
+
 ![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png "Inline style")
 
 #### 3.1.2 Unit Testing
@@ -115,15 +116,20 @@ The testing of the application should focus on any target requirements that can 
 
 #### 3.1.5 User Interface Testing
 ![User_Interface_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UserInterfaceTesting.png "Inline style")
+
 #### 3.1.6 Performance Testing
 ![Performance_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/PerformanceTesting.png "Inline style")
+
 #### 3.1.7 Load Testing
 
 #### 3.1.8 Stress Testing
 None
+
 #### 3.1.9 Security & Access Testing
 The testing will depend on an external tool which should be up-to-date with the current standards and verifies a proper level of security for known vulnerabilities.
+
 ![Security_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/SecurityTesting.png "Inline style")
+
 #### 3.1.10 Recovery Testing
 None
 
@@ -131,7 +137,19 @@ None
 
 #### 3.1.12 Configuration Testing
 ![Configuration_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/ConfigurationTesting.png "Inline style")
+
 #### 3.1.13 Installation Testing
 
 #### 3.1.14 Acceptance Testing
 None
+
+### 3.2 Tools
+The following tools will be employed for testing:
+![Tools_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/ToolsTable.png "Inline style")
+
+## 4. Resources
+The resources for the MyWebServer test effort are the SDC-employees of the testing-team.
+
+### 4.1 Workers
+
+### 4.2 System
