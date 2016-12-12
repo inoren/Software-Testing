@@ -155,6 +155,19 @@ The resources for the MyWebServer test effort are the SDC-employees of the testi
 
 
 ### 4.2 System
-The server module will mainly run on the defined PC's as localhost. For some function tests it will be emulated on a virtual machine. The access tests will be done from various client systems to ensure compatibility and meet the requirements. Whole test-suits will just run on the listed PC-OS's.
+The server module will mainly run on the defined PC's as localhost. For some function tests it will be emulated on VM's. The access tests will be done from various client systems to ensure compatibility and meet the requirements. Whole test-suits will just run on the listed PC-OS's.
 
 ![Resources_System_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SystemResourcesTable.png "Inline style")
+
+The server test stations must have the following software installed and properly configured:
+
+JAVA 8 JDK
+
+The server needs to be setup locally or remotely to run each test suit.
+The default configuration used:
+port: 1091
+shared resource folder: /MyWebServer/tests/se/lnu/http/resources/inner
+
+## 5. Project Milestones
+
+## 6. Deliverables
