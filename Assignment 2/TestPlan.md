@@ -151,5 +151,7 @@ The following tools will be employed for testing:
 The resources for the MyWebServer test effort are the SDC-employees of the testing-team.
 
 ### 4.1 Workers
+![Resource_Workers_Table](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/ResourceWorkersTable.png "Inline style")
+
 
 ### 4.2 System
