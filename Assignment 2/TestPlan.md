@@ -113,6 +113,8 @@ The testing of the application should focus on any target requirements that can 
 ![Function_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/FunctionTesting.png "Inline style")
 
 #### 3.1.4 Business Cycle Testing
+This section is not applicable to test because it is a legal-matter.
+Redirected to legal department.
 
 #### 3.1.5 User Interface Testing
 ![User_Interface_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UserInterfaceTesting.png "Inline style")
@@ -121,6 +123,7 @@ The testing of the application should focus on any target requirements that can 
 ![Performance_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/PerformanceTesting.png "Inline style")
 
 #### 3.1.7 Load Testing
+![Load_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/LoadTesting.png "Inline style")
 
 #### 3.1.8 Stress Testing
 None
@@ -134,11 +137,13 @@ The testing will depend on an external tool which should be up-to-date with the 
 None
 
 #### 3.1.11 API Testing
+This section is not applicable to test because no API is provided.
 
 #### 3.1.12 Configuration Testing
 ![Configuration_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/ConfigurationTesting.png "Inline style")
 
 #### 3.1.13 Installation Testing
+![Installation_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/InstallationTesting.png "Inline style")
 
 #### 3.1.14 Acceptance Testing
 None
