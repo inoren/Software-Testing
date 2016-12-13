@@ -191,3 +191,9 @@ For each test executed a test-result form will be created. This should include t
 
 ### 6.4 Test Report
 A final evaluation of the test-activities and their results will be presented.
+
+### Traceability Matrix (Sample)
+![Traceability_Matrix](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TraceabilityMatrix.png "Inline style")
+
+### Test Cases (Sample)
+![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
