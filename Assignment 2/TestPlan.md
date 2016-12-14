@@ -288,6 +288,32 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Test Cases (Template)
 ![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
 Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit?usp=sharing)
+![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
+
+| Test ID:        | Test Name:        | Test Name:      | Requirement Covered:      |
+| --------------- | ----------------- | --------------- | ------------------------- |
+
+| Scenario        |                           |
+| --------------- | ------------------------- |
+
+| Pre Conditions  |                           |
+| --------------- | ------------------------- |
+
+| Post Conditions |                           |
+| --------------- | ------------------------- |
+
+| Notes           |                           |
+| --------------- | ------------------------- |
+
+| Step | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) |
+| ---- | ---------- | --------- | --------------- | ------------- | ------------------ |
+|      |            |           |                 |               |                    |
+|      |            |           |                 |               |                    |
+|      |            |           |                 |               |                    |
+|      |            |           |                 |               |                    |
+|      |            |           |                 |               |                    |
+|      |            |           |                 |               |                    |
+
 
 ## 9. Test Report
 
@@ -295,3 +321,12 @@ Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwig
 
 ### Traceability Matrix (Sample)
 ![Traceability_Matrix](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TraceabilityMatrix.png "Inline style")
+
+| Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
+| -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
+Test Cases      |  |  |  |  |  |  |
+Test implicitly |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
