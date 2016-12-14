@@ -286,7 +286,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ## 8. Test Design (Test-cases)
 
 ### Test Cases (Template)
-![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
 Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
 |||
@@ -317,14 +316,13 @@ Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87
 
 ![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
 
-
+***
 
 ## 9. Test Report
 
 ## 10. Test Evaluation
 
 ### Traceability Matrix (Sample)
-![Traceability_Matrix](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TraceabilityMatrix.png "Inline style")
 
 | Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
 | -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
