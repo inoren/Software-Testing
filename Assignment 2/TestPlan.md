@@ -287,8 +287,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Test Cases (Template)
 ![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
-Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit?usp=sharing)
-![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
 
 | Test ID:    1    | Test Name:   Login     | Test Strategy:  Functional    | Requirement Covered:   REQ 1   |
 | ---------------- | ---------------------- | ----------------------------- | ------------------------------ |
