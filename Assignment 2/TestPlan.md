@@ -288,21 +288,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Test Cases (Template)
 ![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
 Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
-
-| Test ID:    1    | Test Name:   Login     | Test Strategy:  Functional    | Requirement Covered:   REQ 1   |
-| ---------------- | ---------------------- | ----------------------------- | ------------------------------ |
-
-| Scenario        |   Its quite boring forget it   |
-| --------------- | ------------------------------ |
-
-| Pre Conditions  | You can take whateven you like |
-| --------------- | ------------------------------ |
-
-| Post Conditions | Up to you                      |
-| --------------- | ------------------------------ |
-
-| Notes           | Not this time                  |
-| --------------- | ------------------------------ |
+|||
+| --------------------- | ---------------------------- |
+| Test ID               |  1                           |  
+| Test Name             | Login Test                   |
+| Name of Tester        |  Sarpreet                    |         
+| Requirement Covered   |   Req 1                      |
+| Test Strategy         |    Function Testing          |
+| Date:                 |    14 Dec 2016               |
+| Pre Conditions:       |     Sever must be running    |
+| Post Conditions       |        None                  |
+| Notes                 |        None                  |  
 
 | Step | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) |
 | ---- | ---------- | --------- | --------------- | ------------- | ------------------ |
