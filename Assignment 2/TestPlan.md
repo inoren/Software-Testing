@@ -291,6 +291,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
+**Output**
 ![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
 
 ***
@@ -299,6 +300,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/TestCase1.2.png "Inline style")
 
+**Output**
 ![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/NotADirectoryException.png "Inline style")
 
 
