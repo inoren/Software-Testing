@@ -313,9 +313,9 @@ Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87
 
 
 ### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
-![Test_Case_1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TestCase1.1.png "Inline style")
+![Test_Case_1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
-![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/WrongNumberOfArgumentsException.png "Inline style")
+![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
 
 
 
