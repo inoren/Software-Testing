@@ -285,34 +285,11 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 8. Test Design (Test-cases)
 
-### Test Case
-Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
-/**
-|||
-| --------------------- | ---------------------------- |
-| Test ID               |  1                           |  
-| Test Name             | Login Test                   |
-| Name of Tester        |  Sarpreet                    |         
-| Requirement Covered   |   Req 1                      |
-| Test Strategy         |    Function Testing          |
-| Date:                 |    14 Dec 2016               |
-| Pre Conditions:       |     Sever must be running    |
-| Post Conditions       |        None                  |
-| Notes                 |        None                  |  
-**/
-/**
-| Step | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) |
-| ---- | ---------- | --------- | --------------- | ------------- | ------------------ |
-|  1   |            |           |                 |               |                    |
-|  2   |            |           |                 |               |                    |
-|  3   |            |           |                 |               |                    |
-|  4   |            |           |                 |               |                    |
-|  5   |            |           |                 |               |                    |
-|  6   |            |           |                 |               |                    |
-***/
+ test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
 #### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
-**
+***
+
 ![Test_Case_1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
 ![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
