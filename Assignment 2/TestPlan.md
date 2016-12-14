@@ -40,55 +40,55 @@ The listing below (uses cases, functional-requirements and non-functional-requir
 
 ### 2.1 Data Integrity Testing
 
-- Requirements Document, Use Case 3: "System delivers the shared resource to the browser[[1]]"
-- Verify access to shared resource folder
-- Verify correct retrieval of data from the shared resource folder
-- Verify simultaneous record read accesses.
+- 2.1.1 Requirements Document, Use Case 3: "System delivers the shared resource to the browser[[1]]"
+- 2.1.2 Verify access to shared resource folder
+- 2.1.3 Verify correct retrieval of data from the shared resource folder
+- 2.1.4 Verify simultaneous record read accesses.
 
 ### 2.2  Unit Testing
-- Confirm proper functioning of Unit-Tests from existing JUnit-Testsuit.
-- Verify coverage of units by existing unit-tests.
+- 2.2.1 Confirm proper functioning of Unit-Tests from existing JUnit-Testsuit.
+- 2.2.2 Verify coverage of units by existing unit-tests.
 
 ### 2.3 Function Testing
-- Requirements Document, Supplementary Specification Req 3.: "The web server must work on Linux, Mac, Windows(XP, Vista, 7,8,10,Server 2008)[[1]]"
-- Requirements Document, Supplementary Specification Req 2.: "The web server must follow minimum requirements for HTTP 1.1[[1]]"
-- Requirements Document, Supplementary Specification Req 5.: "Req 5. The access log should be viewable from a text editor.[[1]]"
-- Verify start correct start of the web-server.
-- Verify normal termination of web-server.
-- Verify correctness of existing automated integration-, response- and log- tests.
-- Verify correct working of the web-server in a local-network.
+- 2.3.1 Requirements Document, Supplementary Specification Req 3.: "The web server must work on Linux, Mac, Windows(XP, Vista, 7,8,10,Server 2008)[[1]]"
+- 2.3.2 Requirements Document, Supplementary Specification Req 2.: "The web server must follow minimum requirements for HTTP 1.1[[1]]"
+- 2.3.3 Requirements Document, Supplementary Specification Req 5.: "Req 5. The access log should be viewable from a text editor.[[1]]"
+- 2.3.4 Verify start correct start of the web-server.
+- 2.3.5 Verify normal termination of web-server.
+- 2.3.6 Verify correctness of existing automated integration-, response- and log- tests.
+- 2.3.7 Verify correct working of the web-server in a local-network.
 
 ### 2.4 Business Cycle Testing
-- Requirements Document, Supplementary Specification Req 4.: "The source code should be released under GPL-2.0.[[1]]"
+- 2.4.1 Requirements Document, Supplementary Specification Req 4.: "The source code should be released under GPL-2.0.[[1]]"
 
 ### 2.5 User Interface Testing
-- Verify easy access for customer. ([Scenario paper][2])
+- 2.5.1 Verify easy access for customer. ([Scenario paper][2])
 
 ### 2.6 Performance Testing
-- Verify start of web-server in a reasonable time.
-- Performance Profiling of responses from web-server deployed in different OS-environments.
-- Verify web-server response when accessing it from various IoT-Devices in a LAN.
+- 2.6.1 Verify start of web-server in a reasonable time.
+- 2.6.2 Performance Profiling of responses from web-server deployed in different OS-environments.
+- 2.6.3 Verify web-server response when accessing it from various IoT-Devices in a LAN.
 
 ### 2.7 Load Testing
--  Requirements Document, Supplementary Specification Req 1.: "The web server should be responsive under high load.[[1]]"
+-  2.7.1 Requirements Document, Supplementary Specification Req 1.: "The web server should be responsive under high load.[[1]]"
 
 ### 2.8 Stress Testing
 - None
 
 ### 2.9 Security & Access Testing
-- The web-server should provide absolute security.([Scenario paper][2])
+- 2.9.1 The web-server should provide absolute security.([Scenario paper][2])
 
 ### 2.10 Recovery Testing
 - None
 
 ### 2.11 API Testing
-- Scenario paper: "easy integration and adaptation of the web-server[[2]]"
+- 2.11.1 Scenario paper: "easy integration and adaptation of the web-server[[2]]"
 
 ### 2.12 Configuration Testing
-- The web-server should need minimal configuration.([Scenario paper][2])
+- 2.12.1 The web-server should need minimal configuration.([Scenario paper][2])
 
 ### 2.13 Installation Testing
-- The web-server should be easy to deploy.
+- 2.13.1 The web-server should be easy to deploy.
 
 ### 2.14 Acceptance Testing
 - None
