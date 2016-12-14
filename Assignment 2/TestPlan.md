@@ -2,22 +2,29 @@
 
 ## Table of Contents
 ### 1. [Introduction]
+[Introduction]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#1-introduction-1
 ### 2. [Requirements for Test]
+[Requirements for Test]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#2-requirements-for-test-1
 ### 3. [Test-strategy]
-[Test-strategy]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#3-test-strategy
+[Test-strategy]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#3-test-strategy-1
 ### 4. [Resources]
+[Resources]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#4-resources-1
 ### 5. [Project Milestones]
+[Project Milestones]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#5-project-milestones-1
 ### 6. [Deliverables]
+[Deliverables]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#6-deliverables-1
 ### 7. [Test Plan]
+[Test Plan]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#7-test-plan-1
 ### 8. [Test Design]
+[Test Design]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#8-test-design-test-cases
 ### 9. [Test Report]
+[Test Report]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#9-test-report-1
 ### 10. [Test Evaluation]
-
+[Test Evaluation]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#10-test-evaluation-1
 
 
 
 ## 1. Introduction
-[Introduction]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#1-introduction
 ### 1.1 Purpose
 The purpose of this test plan document is to support the followings objectives:
 - Evaluate the current state and find possible risks in the given open source project
@@ -53,7 +60,6 @@ All references are in the subfolder "References".
 [2]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/Scenario_paper_v1.0.pdf
 
 ## 2. Requirements for Test
-[Requirements for Test]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#2-requirements-for-test
 The listing below (uses cases, functional-requirements and non-functional-requirements) identifies all items that have been identified as targets for testing. It represents what will be tested.
 
 ### 2.1 Data Integrity Testing
@@ -208,13 +214,6 @@ For each test executed a test-result form will be created. This should include t
 ### 6.4 Test Report
 A final evaluation of the test-activities and their results will be presented.
 
-### Traceability Matrix (Sample)
-![Traceability_Matrix](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TraceabilityMatrix.png "Inline style")
-
-### Test Cases (Sample)
-![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
-
-
 ## 7. Test-Plan
 
 ### Full Test-Project
@@ -286,6 +285,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 8. Test Design (Test-cases)
 
+### Test Cases (Template)
+![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
+
 ## 9. Test Report
 
 ## 10. Test Evaluation
+
+### Traceability Matrix (Sample)
+![Traceability_Matrix](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/TraceabilityMatrix.png "Inline style")
