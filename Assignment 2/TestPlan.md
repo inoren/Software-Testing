@@ -2,13 +2,22 @@
 
 ## Table of Contents
 ### 1. [Introduction]
-[Introduction]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#1-introduction
 ### 2. [Requirements for Test]
-[Requirements for Test]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#2-requirements-for-test
+### 3. [Test-strategy]
+[Test-strategy]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#3-test-strategy
+### 4. [Resources]
+### 5. [Project Milestones]
+### 6. [Deliverables]
+### 7. [Test Plan]
+### 8. [Test Design]
+### 9. [Test Report]
+### 10. [Test Evaluation]
+
 
 
 
 ## 1. Introduction
+[Introduction]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#1-introduction
 ### 1.1 Purpose
 The purpose of this test plan document is to support the followings objectives:
 - Evaluate the current state and find possible risks in the given open source project
@@ -44,6 +53,7 @@ All references are in the subfolder "References".
 [2]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/Scenario_paper_v1.0.pdf
 
 ## 2. Requirements for Test
+[Requirements for Test]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#2-requirements-for-test
 The listing below (uses cases, functional-requirements and non-functional-requirements) identifies all items that have been identified as targets for testing. It represents what will be tested.
 
 ### 2.1 Data Integrity Testing
