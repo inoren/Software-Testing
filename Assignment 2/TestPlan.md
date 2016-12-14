@@ -297,9 +297,9 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Test case 1.2, Failed to stat server with ony port number
 
-![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.2.png "Inline style")
+![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/TestCase1.2.png "Inline style")
 
-![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/NotADirectoryException.png "Inline style")
+![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/NotADirectoryException.png "Inline style")
 
 
 
