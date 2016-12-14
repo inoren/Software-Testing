@@ -285,9 +285,9 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 8. Test Design (Test-cases)
 
-### Test Cases (Template)
+### Test Case
 Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
-
+/**
 |||
 | --------------------- | ---------------------------- |
 | Test ID               |  1                           |  
@@ -299,8 +299,8 @@ Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87
 | Pre Conditions:       |     Sever must be running    |
 | Post Conditions       |        None                  |
 | Notes                 |        None                  |  
-
-
+**/
+/**
 | Step | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) |
 | ---- | ---------- | --------- | --------------- | ------------- | ------------------ |
 |  1   |            |           |                 |               |                    |
@@ -309,9 +309,10 @@ Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87
 |  4   |            |           |                 |               |                    |
 |  5   |            |           |                 |               |                    |
 |  6   |            |           |                 |               |                    |
+***/
 
-
-### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
+#### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
+**
 ![Test_Case_1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
 ![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
@@ -322,7 +323,7 @@ Google Doc Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87
 
 ## 10. Test Evaluation
 
-### Traceability Matrix (Sample)
+### Traceability Matrix
 
 | Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
 | -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
