@@ -1,4 +1,4 @@
-# Testplan
+# Test-Project
 
 ## 1. Introduction
 ### 1.1 Purpose
@@ -30,7 +30,7 @@ This test plan applies to Data and Database Integrity Testing, Unit Testing, Fun
 All references are in the subfolder "References".
 
 1. [WebServer_Requirements_v1.0][1]
-2. [Scenario_paper_v1.0] [2]
+2. [Scenario_paper_v1.0][2]
 
 [1]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/WebServer_Requirements_v1.0.pdf
 [2]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/References/Scenario_paper_v1.0.pdf
@@ -39,22 +39,20 @@ All references are in the subfolder "References".
 The listing below (uses cases, functional-requirements and non-functional-requirements) identifies all items that have been identified as targets for testing. It represents what will be tested.
 
 ### 2.1 Data Integrity Testing
-
 - 2.1.1 Requirements Document, Use Case 3: "System delivers the shared resource to the browser[[1]]"
-- 2.1.2 Verify access to shared resource folder
-- 2.1.3 Verify correct retrieval of data from the shared resource folder
-- 2.1.4 Verify simultaneous record read accesses.
+- 2.1.2 Verify correct retrieval of data from the shared resource folder
+- 2.1.3 Verify simultaneous record read accesses.
 
 ### 2.2  Unit Testing
 - 2.2.1 Confirm proper functioning of Unit-Tests from existing JUnit-Testsuit.
-- 2.2.2 Verify coverage of units by existing unit-tests.
+- 2.2.2 Verify statement- and branch-coverage of units by existing unit-tests.
 
 ### 2.3 Function Testing
 - 2.3.1 Requirements Document, Supplementary Specification Req 3.: "The web server must work on Linux, Mac, Windows(XP, Vista, 7,8,10,Server 2008)[[1]]"
 - 2.3.2 Requirements Document, Supplementary Specification Req 2.: "The web server must follow minimum requirements for HTTP 1.1[[1]]"
 - 2.3.3 Requirements Document, Supplementary Specification Req 5.: "Req 5. The access log should be viewable from a text editor.[[1]]"
-- 2.3.4 Verify start correct start of the web-server.
-- 2.3.5 Verify normal termination of web-server.
+- 2.3.4 Requirements Document, Use Case 1: Verify correct start of the web-server.[[1]]
+- 2.3.5 Requirements Document, Use Case 2: Verify normal termination of web-server.[[2]]
 - 2.3.6 Verify correctness of existing automated integration-, response- and log- tests.
 - 2.3.7 Verify correct working of the web-server in a local-network.
 
@@ -113,8 +111,8 @@ The testing of the application should focus on any target requirements that can 
 ![Function_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/FunctionTesting.png "Inline style")
 
 #### 3.1.4 Business Cycle Testing
-This section is not applicable to test because it is a legal-matter.
-Redirected to legal department.
+This section needs to be tested in cooperation with the legal-department.
+Test-strategy needs to be determined.
 
 #### 3.1.5 User Interface Testing
 ![User_Interface_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UserInterfaceTesting.png "Inline style")
@@ -197,3 +195,37 @@ A final evaluation of the test-activities and their results will be presented.
 
 ### Test Cases (Sample)
 ![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
+
+
+
+
+## Test-Planning
+
+### Full Test-Project
+
+The fulfillment of  the test-strategy will be distributed in three iterations. To complete means all test-cases for each listed requirement is designed, executed and evaluated. The Test-Project Goal is to meet all completion-criteria from the test-strategy.
+
+| Iteration       | Goals/Milestones  | Requirement-Number | Start-Date | End-Date |
+| ------------- | -------- | -------- |  :--------: |  :--------: |
+| Iteration #1  | **Unit-Testing**  </br> Confirm JUnit-Testsuit </br>  Verify unit-coverage  </br> </br> **Function-Testing** </br> Webserver works on OS's  </br> HTTP 1.1 Standard </br> Access log viewable  </br>UC1: Start of webserver  </br> UC2: Termination of webserver  </br> Verify Integration-Tests  </br> </br> ** Performance Testing **  </br> Performance Profiling |  </br> Req. 2.2.1 </br> Req. 2.2.2   </br>  </br> </br> Req. 2.3.1  </br> Req. 2.3.2  </br> Req. 2.3.3  </br> Req. 2.3.4  </br> Req. 2.3.5  </br> Req. 2.3.6  </br> </br></br> Req. 2.6.2 | 14/12/2016 | 18/12/2016 |
+| Iteration #2  | **Data Integrity Testing **  </br> UC3: System delivers to browser  </br> Verify correct retrieval </br> Verfy simultaneous access </br> </br>**Function-Testing**  </br> Verify behavior in LAN  </br> </br> ** Performance Testing**  </br> Start in reasonable time </br> Access-Time in LAN  </br>  </br> **Load Testing**  </br> Responsive under high load |  </br> Req. 2.1.1  </br> Req. 2.1.2  </br> Req. 2.1.3  </br> </br> </br> Req. 2.3.7 </br></br></br> Req. 2.6.1  </br> Req. 2.6.3  </br>  </br>  </br> Req. 2.7.1  | 18/12/2016 | 21/12/2016 |
+| Iteration #3  | ** UI Testing ** </br> Verify easy access </br></br>  ** Secutiry and Access Testing ** </br> Webserver security report </br> </br>  ** Configuration Testing ** </br> Minimal Configuration </br></br>  ** Installation Testing ** </br>  Easy deployment of server </br> </br>  ** API Testing ** </br> Easy integration and adaptation </br> </br> ** Business Cycle Testing ** </br>  GPL-2 License published |  </br>  Req. 2.5.1 </br> </br> </br> Req. 2.9.1 </br></br> </br> Req. 2.12.1  </br></br> </br> Req. 2.13.1 </br> </br> </br> Req. 2.11.1  </br> </br> </br>  Req. 2.4.1 | 21/12/2016 | 23/12/2016 |
+
+### Iteration \#1
+The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then all the milestones should be covered. This means the tests are designed, executed, results documented and evaluated. If something is not finished it will be taken into the next iteration. If more then one tester are involved in a milestone the tester in bold is marked as the responsible person that the test is complete and documented.
+
+| Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
+| -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
+| **Unit-Testing**  |||||||
+| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | | | |
+| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | | | |
+| **Function-Testing**  |||||||
+| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
+| HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
+| Access log viewable | Req. 2.3.3 | Henry | | | | |
+| UC1: Start of webserver | Req. 2.3.4 | Singh | | | | |
+| UC2: Termination of webserver | 2.3.5 | Singh | | | | |
+| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
+| ** Performance Testing ** |||||||
+| Performance Profiling | Req. 2.6.2 | Henry | | | | | |
+| ** Total ** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
