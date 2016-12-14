@@ -290,29 +290,29 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 Link (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit?usp=sharing)
 ![Sample_Test_Case](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/SampleTestCase.png "Inline style")
 
-| Test ID:        | Test Name:        | Test Name:      | Requirement Covered:      |
-| --------------- | ----------------- | --------------- | ------------------------- |
+| Test ID:    1    | Test Name:   Login     | Test Strategy:  Functional    | Requirement Covered:   REQ 1   |
+| ---------------- | ---------------------- | ----------------------------- | ------------------------------ |
 
-| Scenario        |                           |
-| --------------- | ------------------------- |
+| Scenario        |   Its quite boring forget it   |
+| --------------- | ------------------------------ |
 
-| Pre Conditions  |                           |
-| --------------- | ------------------------- |
+| Pre Conditions  | You can take whateven you like |
+| --------------- | ------------------------------ |
 
-| Post Conditions |                           |
-| --------------- | ------------------------- |
+| Post Conditions | Up to you                      |
+| --------------- | ------------------------------ |
 
-| Notes           |                           |
-| --------------- | ------------------------- |
+| Notes           | Not this time                  |
+| --------------- | ------------------------------ |
 
 | Step | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) |
 | ---- | ---------- | --------- | --------------- | ------------- | ------------------ |
-|      |            |           |                 |               |                    |
-|      |            |           |                 |               |                    |
-|      |            |           |                 |               |                    |
-|      |            |           |                 |               |                    |
-|      |            |           |                 |               |                    |
-|      |            |           |                 |               |                    |
+|  1   |            |           |                 |               |                    |
+|  2   |            |           |                 |               |                    |
+|  3   |            |           |                 |               |                    |
+|  4   |            |           |                 |               |                    |
+|  5   |            |           |                 |               |                    |
+|  6   |            |           |                 |               |                    |
 
 
 ## 9. Test Report
