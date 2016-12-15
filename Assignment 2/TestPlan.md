@@ -303,8 +303,62 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 ![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/NotADirectoryException.png "Inline style")
 
+***
+
+### Test case 1.3, Failed to stat server with ony shared resource container
+
+![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/TestCase1.3.png "Inline style")
+
+**Output**
+![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/ValidPortError.png "Inline style")
+
+***
+
+### Test case 1.4, Failed to stat server with ony invalid port number
+
+![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/TestCase1.4.png "Inline style")
+
+**Output**
+![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/ValidPortError.png "Inline style")
+
+***
+
+### Test case 1.5, Failed to stat server with ony incorrect shared resource container
+
+![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/TestCase1.5.png "Inline style")
+
+**Output**
+![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/ValidPortError.png "Inline style")
+
+***
+
+### Test case 1.6, Failed to stat server with incorrect order of port and shared resource container
+
+![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/TestCase1.6.png "Inline style")
+
+**Output**
+![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/ValidPortError.png "Inline style")
+
+***
+
+### Test case 1.7, Failed to stat server with incorrect port number and correct shared resource container
+
+![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/TestCase1.7.png "Inline style")
+
+**Output**
+![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/ValidPortError.png "Inline style")
 
 
+***
+
+### Test case 1.8, Failed to stat server with correct port number and empty shared resource container path
+
+![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/TestCase1.8.png "Inline style")
+
+**Output**
+![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/NotADirectoryException.png "Inline style")
+
+***
 
 
 ## 9. Test Report
