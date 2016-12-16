@@ -394,7 +394,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Test case 2.3, Server stops successfully with correct command
 
-![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/TestCase2.2.png "Inline style")
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/TestCase2.3.png "Inline style")
 
 **Output**
 ![ServerStops](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/ServerStops.png "Inline style")
