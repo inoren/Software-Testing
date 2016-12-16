@@ -238,8 +238,8 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
 | Access log viewable | Req. 2.3.3 | Henry | | | | |
-| UC1: Start of webserver | Req. 2.3.4 | Singh | | | | |
-| UC2: Termination of webserver | 2.3.5 | Singh | | | | |
+| UC1: Start of webserver | Req. 2.3.4 | Singh | 4h| | | |
+| UC2: Termination of webserver | 2.3.5 | Singh | | 1h| | |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 2h | | | | |
