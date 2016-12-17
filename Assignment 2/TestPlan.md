@@ -360,11 +360,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.9, Confirm the performance is stable
-
-![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Test Case 1.9")
-
-
 ### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
 
 ![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Inline style")
@@ -403,6 +398,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 ![ServerStops](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/ServerStops.png "Inline style")
 
+***
+
+### Test case 2.4, Confirm the performance is stable
+
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.4/TestCase2.4.png "Test Case 2.4")
+
+***
 
 ## 9. Test Report
 
