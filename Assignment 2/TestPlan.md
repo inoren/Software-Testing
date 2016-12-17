@@ -402,7 +402,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Test case 2.4, Confirm the performance is stable
 
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.4/TestCase2.4.png "Test Case 2.4")
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 ***
 
