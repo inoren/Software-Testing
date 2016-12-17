@@ -242,7 +242,7 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | UC2: Termination of webserver | 2.3.5 | Singh | | | | |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 2h | | | | |
+| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
@@ -359,6 +359,10 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/NotADirectoryException.png "Inline style")
 
 ***
+
+### Test case 1.9, Confirm the performance is stable
+
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Test Case 1.9")
 
 
 ## 9. Test Report
