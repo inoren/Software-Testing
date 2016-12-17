@@ -238,8 +238,8 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
 | Access log viewable | Req. 2.3.3 | Henry | | | | |
-| UC1: Start of webserver | Req. 2.3.4 | Singh | | | | |
-| UC2: Termination of webserver | 2.3.5 | Singh | | | | |
+| UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 4h | 14/12/2106 | 16/12/2106 |
+| UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
@@ -363,6 +363,45 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Test case 1.9, Confirm the performance is stable
 
 ![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Test Case 1.9")
+
+
+### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
+
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Inline style")
+
+**Output**
+![ServerStartUpMessage](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/ServerStartUpMessage.png "Inline style")
+
+
+***
+
+### Test case 2.1, Failed to stop server with Uppercase stop command
+
+![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.1/TestCase2.1.png "Inline style")
+
+**Output**
+![UppercaseCommand](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.1/UppercaseCommand.png "Inline style")
+
+
+***
+
+
+### Test case 2.2, Failed to stop server with command’s first letter uppercase
+
+![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.2/TestCase2.2.png "Inline style")
+
+**Output**
+![FirstLetterUppercase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.2/FirstLetterUppercase.png "Inline style")
+
+
+***
+
+### Test case 2.3, Server stops successfully with correct command
+
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/TestCase2.3.png "Inline style")
+
+**Output**
+![ServerStops](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/ServerStops.png "Inline style")
 
 
 ## 9. Test Report
