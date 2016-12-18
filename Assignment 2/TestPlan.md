@@ -232,15 +232,15 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Unit-Testing**  |||||||
-| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | | | |
-| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | | | |
+| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | 5h | 18/12/2016 | 18/12/2016 |
+| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
 | Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
 | Access log viewable | Req. 2.3.3 | Henry | | | | |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
-| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
+| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
@@ -394,11 +394,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Integration Testing (Req. 2.3.6)
 
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
+
+***
 
 ## 9. Test Report
 
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
-#### Test case 2.5
+
+#### Test case 2.5, Existing Unit Tests run
 
 ![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestResult2.5.png "Inline style")
 
@@ -407,7 +413,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.6
+#### Test case 2.6, Code Coverage Unit Tests
 
 ![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestResult2.6.png "Inline style")
 
@@ -416,7 +422,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.7
+#### Test case 2.7, Existing and additional Unit Tests run
 
 ![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestResult2.7.png "Inline style")
 
@@ -425,7 +431,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.8
+#### Test case 2.8, Code Coverage existing and additional Unit tests
 
 ![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
 
@@ -435,6 +441,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Integration Testing (Req. 2.3.6)
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
+
+**Output**
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
 
 
 ## 10. Test Evaluation
