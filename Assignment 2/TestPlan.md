@@ -409,9 +409,8 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
->! Spoiler text
->![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
->!![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
+
 
 
 ***
