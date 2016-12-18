@@ -287,15 +287,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### General Test case , Create and Execute runnable jar file in command line
-
-![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/TestCaseWebserverWorks.png "Inline style")
-
-**Output**
-![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/Commandline.png "Inline style")
-
-***
-
 ### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
@@ -409,11 +400,21 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.4, Confirm the performance is stable
+### Test Case 3.1 , Create and Execute runnable jar file in command line
+
+![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/TestCaseWebserverWorks.png "Inline style")
+
+**Output**
+![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/Commandline.png "Inline style")
+
+***
+
+### Test case 4.1, Confirm the performance is stable
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 ***
+
 
 ## 9. Test Report
 
@@ -424,19 +425,21 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 | Requirements Identifiers | Reqs Tested | REQ 2.3.4 UC 1 | REQ 2.3.5 UC 2 |
 | ------------------------ | ----------- | -------------- | -------------- |
 Test Cases                 |             |                |                |
-Test implicitly            |             |                |                |
-1.1                        |             |                |                |
-1.2                        |             |                |                |
-1.3                        |             |                |                |
-1.4                        |             |                |                |
-1.5                        |             |                |                |
-1.6                        |             |                |                |
-1.7                        |             |                |                |
-1.8                        |             |                |                |
-1.9                        |             |                |                |
-2.1                        |             |                |                |
-2.2                        |             |                |                |
-2.3                        |             |                |                |
+Test implicitly            |             |       x        |                |
+1.1                        |             |       x        |                |
+1.2                        |             |       x        |                |
+1.3                        |             |       x        |                |
+1.4                        |             |       x        |                |
+1.5                        |             |       x        |                |
+1.6                        |             |       x        |                |
+1.7                        |             |       x        |                |
+1.8                        |             |       x        |                |
+1.9                        |             |       x        |                |
+2.1                        |             |       x        |       x        |
+2.2                        |             |       x        |       x        |
+2.3                        |             |       x        |       x        |
+3.1                        |             |                |                |
+4.1                        |             |                |                |
 
 
 
