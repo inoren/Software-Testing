@@ -235,14 +235,14 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | 5h | 18/12/2016 | 18/12/2016 |
 | Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
-| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
+| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | 2h | 2h | 18/12/2016 | 18/12/2016 |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
-| Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
+| Access log viewable | Req. 2.3.3 | Henry | | | | |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 17/12/2016 | 17/12/2016 |
+| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
@@ -583,13 +583,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
 
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 3.0/TestCase3.0.png "TestCase 3.0")
-
-***
 
 ## 10. Test Evaluation
 
