@@ -587,7 +587,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 3.0, Acess log viewable (Req. 2.3.3)
 
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase3.0.png "TestCase 3.0")
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 3.0/TestCase3.0.png "TestCase 3.0")
 
 ***
 
