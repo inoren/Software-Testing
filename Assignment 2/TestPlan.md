@@ -287,7 +287,14 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### Function Testing (Req. 2.3.4 & 2.3.5)
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
+
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase1.1Expected.png "Inline style")
+
+***
+
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Expected.png "Inline style")
