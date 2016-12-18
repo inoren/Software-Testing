@@ -235,14 +235,14 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | 5h | 18/12/2016 | 18/12/2016 |
 | Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
-| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
+| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | 2h | 2h | 18/12/2016 | 18/12/2016 |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
-| Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
+| Access log viewable | Req. 2.3.3 | Henry | | | | |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 17/12/2016 | 17/12/2016 |
+| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
@@ -412,6 +412,184 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
 
 ***
+
+## 9. Test Report
+
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
+
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result.png "Inline style")
+
+***
+
+#### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/Result.png "Inline style")
+
+
+***
+
+#### Test case 1.2, Failed to start server with only port number
+
+![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/TestCase1.2Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/Result.png "Inline style")
+
+***
+
+#### Test case 1.3, Failed to start server with only shared resource container
+
+![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/TestCase1.3Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/Result.png "Inline style")
+
+***
+
+#### Test case 1.4, Failed to start server with only invalid port number
+
+![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/TestCase1.4Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/Result.png "Inline style")
+
+***
+
+#### Test case 1.5, Failed to start server with only incorrect shared resource container
+
+![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/TestCase1.5Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/Result.png "Inline style")
+
+***
+
+#### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
+
+![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/TestCase1.6Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/Result.png "Inline style")
+
+***
+
+#### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
+
+![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/TestCase1.7Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/Result.png "Inline style")
+
+***
+
+#### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
+
+![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/TestCase1.8Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/Result.png "Inline style")
+
+***
+
+#### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
+
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/TestCase1.9Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/Result.png "Inline style")
+
+***
+
+#### Test case 2.1, Failed to stop server with Uppercase stop command
+
+![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/Result.png "Inline style")
+
+***
+
+#### Test case 2.2, Failed to stop server with command’s first letter uppercase
+
+![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/TestCase2.2Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/Result.png "Inline style")
+
+***
+
+#### Test case 2.3, Server stops successfully with correct command
+
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/TestCase2.3Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
+
+*** 
+### Unit Testing (Req. 2.2.1 & 2.2.2)
+
+#### Test case 2.5, Existing Unit Tests run
+
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestResult2.5.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5Additional.png "Inline style")
+
+***
+
+#### Test case 2.6, Code Coverage Unit Tests
+
+![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestResult2.6.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6Additional.png "Inline style")
+
+***
+
+#### Test case 2.7, Existing and additional Unit Tests run
+
+![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestResult2.7.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7Additional.png "Inline style")
+
+***
+
+#### Test case 2.8, Code Coverage existing and additional Unit tests
+
+![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
+
+***
+
+### Integration Testing (Req. 2.3.6)
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
+
+>>>>>>> d695f3ca22114ac4ddf69cf04f2cfe7fac8d8615
 
 ## 10. Test Evaluation
 
