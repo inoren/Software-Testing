@@ -236,8 +236,8 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
 | Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | 2h | 2h | 18/12/2016 | 18/12/2016 |
-| HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
-| Access log viewable | Req. 2.3.3 | Henry | | | | |
+| HTTP 1.1 Standard | Req. 2.3.2 | Henry | 2h | | 18/12/2016 | |
+| Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
