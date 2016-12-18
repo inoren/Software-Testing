@@ -400,7 +400,16 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.4, Confirm the performance is stable
+### Test Case 3.1 , Create and Execute runnable jar file in command line
+
+![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/TestCaseWebserverWorks.png "Inline style")
+
+**Output**
+![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/Commandline.png "Inline style")
+
+***
+
+### Test case 4.1, Confirm the performance is stable
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
@@ -472,11 +481,20 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Traceability Matrix
 
-| Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
-| -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
-Test Cases      |  |  |  |  |  |  |
-Test implicitly |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
+| Requirements Identifiers | Reqs Tested | UC 1.1 | UC 1.2 | UC 1.3 | UC 1.4 | UC 1.5 | UC 1.6 | UC 1.7 | UC 1.8 | UC 1.9 
+| UC 2.1                   | UC 2.1      | UC 2.3 |
+| ------------------------ | ----------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ 
+| ------------------------ | ----------- | ------ |
+| Test Cases               |             |        |        |        |        |        |        |        |        |        |
+                           |             |        |
+| Test implicitly          |             |        |        |        |        |        |        |        |        |        |
+                           |             |        |
+| 2.3.4                    |             |        |        |        |        |        |        |        |        |        |
+                           |             |        |
+| 2.3.5                    |             |        |        |        |        |        |        |        |        |        |
+                           |             |        |
+
+
+
+
+
