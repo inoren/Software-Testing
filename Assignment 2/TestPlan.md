@@ -242,7 +242,7 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
+| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 17/12/2016 | 17/12/2016 | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
