@@ -232,15 +232,15 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Unit-Testing**  |||||||
-| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | | | |
-| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | | | |
+| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | 5h | 18/12/2016 | 18/12/2016 |
+| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
 | Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | | | | |
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | | | | |
 | Access log viewable | Req. 2.3.3 | Henry | | | | |
-| UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 4h | 14/12/2106 | 16/12/2106 |
+| UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
-| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | | | |
+| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 5h | | 17/12/2016 | 17/12/2016 | |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
@@ -251,16 +251,16 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
-| UC3: System delivers to browser |  Req. 2.1.1 | | | | | |
-| Verify correct retrieval   |  Req. 2.1.2 | | | | | |
-| Verfiy simultaneous access | Req. 2.1.3 | | | | | |
+| UC3: System delivers to browser |  Req. 2.1.1 | Singh | | | | |
+| Verify correct retrieval   |  Req. 2.1.2 | Singh | | | | |
+| Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
-| Verify behavior in LAN  | Req 2.3.7 | | | | | |
+| Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
 | **Performance Testing** |||||||
-| Start in reasonable time | Req. 2.6.1 | | | | | | |
-| Access-Time in LAN | Req. 2.6.3 | | | | | | |
+| Start in reasonable time | Req. 2.6.1 | Singh | | | | | |
+| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | | | | |
 | **Load Testing** |||||||
-| Responsive under high load | Req. 2.7.1 | | | | | | |
+| Responsive under high load | Req. 2.7.1 | Henry | | | | | |
 | **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
 
 
@@ -270,153 +270,345 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **UI Testing**  |||||||
-| Verify easy access |  Req. 2.5.1 | | | | | |
+| Verify easy access |  Req. 2.5.1 | Singh | | | | |
 | **Security and Access Testing**  |||||||
-| Webserver security report | Req. 2.9.1 | | | | | |
+| Webserver security report | Req. 2.9.1 | Jakob | | | | |
 | **Configuration Testing**  |||||||
-| Minimal Configuration  | Req 2.12.1 | | | | | |
+| Minimal Configuration  | Req 2.12.1 | Henry | | | | |
 | **Installation Testing** |||||||
-| Easy deployment of server  | Req. 2.13.1 | | | | | | |
+| Easy deployment of server  | Req. 2.13.1 | Henry | | | | | |
 | **API Testing** |||||||
-| Easy integration and adaptation | Req. 2.11.1 | | | | | | |
+| Easy integration and adaptation | Req. 2.11.1 | Jakob | | | | | |
 | **Business Cycle Testing** |||||||
-|  GPL-2 License published  | Req. 2.4.1 | | | | | | |
+|  GPL-2 License published  | Req. 2.4.1 | Singh | | | | | |
 | **Total** | | | Sum of all (35-40?) | | 21/12/2016 | 23/12/2016 |
 
 ## 8. Test Design (Test-cases)
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
 
-![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
 
-**Output**
-![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/WrongNumberOfArgumentsException.png "Inline style")
-
-***
-
-### Test case 1.2, Failed to stat server with ony port number
-
-![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/TestCase1.2.png "Inline style")
-
-**Output**
-![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/NotADirectoryException.png "Inline style")
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Expected.png "Inline style")
 
 ***
 
-### Test case 1.3, Failed to stat server with ony shared resource container
+#### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
-![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/TestCase1.3.png "Inline style")
-
-**Output**
-![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/ValidPortError.png "Inline style")
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Expected.png "Inline style")
 
 ***
 
-### Test case 1.4, Failed to stat server with ony invalid port number
+#### Test case 1.2, Failed to start server with only port number
 
-![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/TestCase1.4.png "Inline style")
-
-**Output**
-![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/ValidPortError.png "Inline style")
+![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/TestCase1.2Expected.png "Inline style")
 
 ***
 
-### Test case 1.5, Failed to stat server with ony incorrect shared resource container
+#### Test case 1.3, Failed to start server with only shared resource container
 
-![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/TestCase1.5.png "Inline style")
+![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/TestCase1.3Expected.png "Inline style")
+***
 
-**Output**
-![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/ValidPortError.png "Inline style")
+#### Test case 1.4, Failed to start server with only invalid port number
+
+![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/TestCase1.4Expected.png "Inline style")
 
 ***
 
-### Test case 1.6, Failed to stat server with incorrect order of port and shared resource container
+#### Test case 1.5, Failed to start server with only incorrect shared resource container
 
-![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/TestCase1.6.png "Inline style")
-
-**Output**
-![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/ValidPortError.png "Inline style")
+![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/TestCase1.5Expected.png "Inline style")
 
 ***
 
-### Test case 1.7, Failed to stat server with incorrect port number and correct shared resource container
+#### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
 
-![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/TestCase1.7.png "Inline style")
-
-**Output**
-![ValidPortError](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/ValidPortError.png "Inline style")
-
+![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/TestCase1.6Expected.png "Inline style")
 
 ***
 
-### Test case 1.8, Failed to stat server with correct port number and empty shared resource container path
+#### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
 
-![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/TestCase1.8.png "Inline style")
-
-**Output**
-![NotADirectoryException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/NotADirectoryException.png "Inline style")
+![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/TestCase1.7Expected.png "Inline style")
 
 ***
 
-### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
+#### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
 
-![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Inline style")
-
-**Output**
-![ServerStartUpMessage](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/ServerStartUpMessage.png "Inline style")
-
+![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/TestCase1.8Expected.png "Inline style")
 
 ***
 
-### Test case 2.1, Failed to stop server with Uppercase stop command
+#### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
 
-![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.1/TestCase2.1.png "Inline style")
-
-**Output**
-![UppercaseCommand](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.1/UppercaseCommand.png "Inline style")
-
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/TestCase1.9Expected.png "Inline style")
 
 ***
 
+#### Test case 2.1, Failed to stop server with Uppercase stop command
 
-### Test case 2.2, Failed to stop server with command’s first letter uppercase
-
-![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.2/TestCase2.2.png "Inline style")
-
-**Output**
-![FirstLetterUppercase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.2/FirstLetterUppercase.png "Inline style")
-
+![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Expected.png "Inline style")
 
 ***
 
-### Test case 2.3, Server stops successfully with correct command
+#### Test case 2.2, Failed to stop server with command’s first letter uppercase
 
-![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/TestCase2.3.png "Inline style")
-
-**Output**
-![ServerStops](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/ServerStops.png "Inline style")
+![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/TestCase2.2Expected.png "Inline style")
 
 ***
 
-### Test case 2.4, Confirm the performance is stable
+#### Test case 2.3, Server stops successfully with correct command
+
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/TestCase2.3Expected.png "Inline style")
+
+***
+
+#### Test case 2.4, Confirm the performance is stable
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 ***
 
+### Unit Testing (Req. 2.2.1 & 2.2.2)
+
+#### Test case 2.5, Existing Unit Tests run
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
+
+
+
+***
+
+#### Test case 2.6, Code Coverage Unit Tests
+
+![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6.png "Inline style")
+
+***
+
+#### Test case 2.7, Existing and additional Unit Tests run
+
+![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7.png "Inline style")
+
+***
+
+#### Test case 2.8, Code Coverage existing and additional Unit tests
+
+![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8.png "Inline style")
+
+***
+
+### Integration Testing (Req. 2.3.6)
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
+
+***
+
 ## 9. Test Report
+
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
+
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result.png "Inline style")
+
+***
+
+#### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/Result.png "Inline style")
+
+
+***
+
+#### Test case 1.2, Failed to start server with only port number
+
+![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/TestCase1.2Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/Result.png "Inline style")
+
+***
+
+#### Test case 1.3, Failed to start server with only shared resource container
+
+![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/TestCase1.3Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/Result.png "Inline style")
+
+***
+
+#### Test case 1.4, Failed to start server with only invalid port number
+
+![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/TestCase1.4Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/Result.png "Inline style")
+
+***
+
+#### Test case 1.5, Failed to start server with only incorrect shared resource container
+
+![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/TestCase1.5Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/Result.png "Inline style")
+
+***
+
+#### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
+
+![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/TestCase1.6Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/Result.png "Inline style")
+
+***
+
+#### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
+
+![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/TestCase1.7Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/Result.png "Inline style")
+
+***
+
+#### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
+
+![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/TestCase1.8Actual.png "Inline style")
+
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/Result.png "Inline style")
+
+***
+
+#### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
+
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/TestCase1.9Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/Result.png "Inline style")
+
+***
+
+#### Test case 2.1, Failed to stop server with Uppercase stop command
+
+![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/Result.png "Inline style")
+
+***
+
+#### Test case 2.2, Failed to stop server with command’s first letter uppercase
+
+![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/TestCase2.2Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/Result.png "Inline style")
+
+***
+
+#### Test case 2.3, Server stops successfully with correct command
+
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/TestCase2.3Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
+
+*** 
+### Unit Testing (Req. 2.2.1 & 2.2.2)
+
+#### Test case 2.5, Existing Unit Tests run
+
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestResult2.5.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5Additional.png "Inline style")
+
+***
+
+#### Test case 2.6, Code Coverage Unit Tests
+
+![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestResult2.6.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6Additional.png "Inline style")
+
+***
+
+#### Test case 2.7, Existing and additional Unit Tests run
+
+![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestResult2.7.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7Additional.png "Inline style")
+
+***
+
+#### Test case 2.8, Code Coverage existing and additional Unit tests
+
+![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
+
+***
+
+### Integration Testing (Req. 2.3.6)
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
+
 
 ## 10. Test Evaluation
 
 ### Traceability Matrix
 
-| Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
-| -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
-Test Cases      |  |  |  |  |  |  |
-Test implicitly |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
+|Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Test Cases| 10 |  |  | 1 |  |  | 12 | 3 |  |  |
+|Test Implicitly|  |  |  |  |  |  |  |  |  |  |
+|0.1| 1 |  |  | x |  |  |  |  |  |  |
+|1.1| 1 |  |  |  |  |  | x |  |  |  |
+|1.2| 1 |  |  |  |  |  | x |  |  |  |
+|1.3| 1 |  |  |  |  |  | x |  |  |  |
+|1.4| 1 |  |  |  |  |  | x |  |  |  |
+|1.5| 1 |  |  |  |  |  | x |  |  |  |
+|1.6| 1 |  |  |  |  |  | x |  |  |  |
+|1.7| 1 |  |  |  |  |  | x |  |  |  |
+|1.8| 1 |  |  |  |  |  | x |  |  |  |
+|1.9| 1 |  |  |  |  |  | x |  |  |  |
+|2.1| 2 |  |  |  |  |  | x | x |  |  |
+|2.2| 2 |  |  |  |  |  | x | x |  |  |
+|2.3| 2 |  |  |  |  |  | x | x |  |  |
+|2.4|  |  |  |  |  |  |  |  |  |  |
+|2.5|  |  |  |  |  |  |  |  |  |  |
+|2.6|  |  |  |  |  |  |  |  |  |  |
+|2.7|  |  |  |  |  |  |  |  |  |  |
+|2.8|  |  |  |  |  |  |  |  |  |  |
+|2.9|  |  |  |  |  |  |  |  |  |  |
+
