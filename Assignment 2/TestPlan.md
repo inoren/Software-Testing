@@ -251,16 +251,16 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
-| UC3: System delivers to browser |  Req. 2.1.1 | | | | | |
-| Verify correct retrieval   |  Req. 2.1.2 | | | | | |
-| Verfiy simultaneous access | Req. 2.1.3 | | | | | |
+| UC3: System delivers to browser |  Req. 2.1.1 | Singh | | | | |
+| Verify correct retrieval   |  Req. 2.1.2 | Singh | | | | |
+| Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
-| Verify behavior in LAN  | Req 2.3.7 | | | | | |
+| Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
 | **Performance Testing** |||||||
-| Start in reasonable time | Req. 2.6.1 | | | | | | |
-| Access-Time in LAN | Req. 2.6.3 | | | | | | |
+| Start in reasonable time | Req. 2.6.1 | Singh | | | | | |
+| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | | | | |
 | **Load Testing** |||||||
-| Responsive under high load | Req. 2.7.1 | | | | | | |
+| Responsive under high load | Req. 2.7.1 | Henry | | | | | |
 | **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
 
 
@@ -270,17 +270,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **UI Testing**  |||||||
-| Verify easy access |  Req. 2.5.1 | | | | | |
+| Verify easy access |  Req. 2.5.1 | Singh | | | | |
 | **Security and Access Testing**  |||||||
-| Webserver security report | Req. 2.9.1 | | | | | |
+| Webserver security report | Req. 2.9.1 | Jakob | | | | |
 | **Configuration Testing**  |||||||
-| Minimal Configuration  | Req 2.12.1 | | | | | |
+| Minimal Configuration  | Req 2.12.1 | Henry | | | | |
 | **Installation Testing** |||||||
-| Easy deployment of server  | Req. 2.13.1 | | | | | | |
+| Easy deployment of server  | Req. 2.13.1 | Henry | | | | | |
 | **API Testing** |||||||
-| Easy integration and adaptation | Req. 2.11.1 | | | | | | |
+| Easy integration and adaptation | Req. 2.11.1 | Jakob | | | | | |
 | **Business Cycle Testing** |||||||
-|  GPL-2 License published  | Req. 2.4.1 | | | | | | |
+|  GPL-2 License published  | Req. 2.4.1 | Singh | | | | | |
 | **Total** | | | Sum of all (35-40?) | | 21/12/2016 | 23/12/2016 |
 
 ## 8. Test Design (Test-cases)
