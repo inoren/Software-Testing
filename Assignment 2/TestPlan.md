@@ -405,7 +405,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Unit Testing (Req. 2.3.4 & 2.3.5)
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
-![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.Actual.png "Inline style")
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/Result.png "Inline style")
@@ -415,7 +415,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.2, Failed to start server with only port number
 
-![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/TestCase1.2Expected.png "Inline style")
+![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/TestCase1.2Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.2/Result.png "Inline style")
@@ -424,7 +424,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.3, Failed to start server with only shared resource container
 
-![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/TestCase1.3Expected.png "Inline style")
+![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/TestCase1.3Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.3/Result.png "Inline style")
@@ -433,7 +433,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.4, Failed to start server with only invalid port number
 
-![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/TestCase1.4Expected.png "Inline style")
+![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.4/TestCase1.4Actual.png "Inline style")
 
 
 **Output**
@@ -443,7 +443,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.5, Failed to start server with only incorrect shared resource container
 
-![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/TestCase1.5Expected.png "Inline style")
+![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.5/TestCase1.5Actual.png "Inline style")
 
 
 **Output**
@@ -453,7 +453,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
 
-![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/TestCase1.6Expected.png "Inline style")
+![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/TestCase1.6Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.6/Result.png "Inline style")
@@ -462,7 +462,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
 
-![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/TestCase1.7Expected.png "Inline style")
+![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/TestCase1.7Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.7/Result.png "Inline style")
@@ -471,7 +471,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
 
-![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/TestCase1.8Expected.png "Inline style")
+![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.8/TestCase1.8Actual.png "Inline style")
 
 
 **Output**
@@ -481,7 +481,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
 
-![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/TestCase1.9Expected.png "Inline style")
+![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/TestCase1.9Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/Result.png "Inline style")
@@ -490,7 +490,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 2.1, Failed to stop server with Uppercase stop command
 
-![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Expected.png "Inline style")
+![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/Result.png "Inline style")
@@ -499,7 +499,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 2.2, Failed to stop server with command’s first letter uppercase
 
-![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/TestCase2.2Expected.png "Inline style")
+![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/TestCase2.2Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.2/Result.png "Inline style")
@@ -508,7 +508,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 2.3, Server stops successfully with correct command
 
-![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/TestCase2.3Expected.png "Inline style")
+![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/TestCase2.3Actual.png "Inline style")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
