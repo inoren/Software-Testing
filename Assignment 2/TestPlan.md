@@ -287,7 +287,14 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### Function Testing (Req. 2.3.4 & 2.3.5)
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
+
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Expected.png "Inline style")
+
+***
+
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Expected.png "Inline style")
@@ -402,7 +409,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 9. Test Report
 
-### Function Testing (Req. 2.3.4 & 2.3.5)
+### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
+
+#### Test case 0.1, Webserver works on Windows, Linus and Mac OS
+
+![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result.png "Inline style")
+
+***
+
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.1/TestCase1.1Actual.png "Inline style")
@@ -571,11 +588,27 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Traceability Matrix
 
-| Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
-| -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
-Test Cases      |  |  |  |  |  |  |
-Test implicitly |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
-1.1.1           |  |  |  |  |  |  |
+|Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2|
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|Test Cases| 10 |  |  | 1 |  |  | 12 | 3 |  |  |
+|Test Implicitly|  |  |  |  |  |  |  |  |  |  |
+|0.1| 1 |  |  | x |  |  |  |  |  |  |
+|1.1| 1 |  |  |  |  |  | x |  |  |  |
+|1.2| 1 |  |  |  |  |  | x |  |  |  |
+|1.3| 1 |  |  |  |  |  | x |  |  |  |
+|1.4| 1 |  |  |  |  |  | x |  |  |  |
+|1.5| 1 |  |  |  |  |  | x |  |  |  |
+|1.6| 1 |  |  |  |  |  | x |  |  |  |
+|1.7| 1 |  |  |  |  |  | x |  |  |  |
+|1.8| 1 |  |  |  |  |  | x |  |  |  |
+|1.9| 1 |  |  |  |  |  | x |  |  |  |
+|2.1| 2 |  |  |  |  |  | x | x |  |  |
+|2.2| 2 |  |  |  |  |  | x | x |  |  |
+|2.3| 2 |  |  |  |  |  | x | x |  |  |
+|2.4|  |  |  |  |  |  |  |  |  |  |
+|2.5|  |  |  |  |  |  |  |  |  |  |
+|2.6|  |  |  |  |  |  |  |  |  |  |
+|2.7|  |  |  |  |  |  |  |  |  |  |
+|2.8|  |  |  |  |  |  |  |  |  |  |
+|2.9|  |  |  |  |  |  |  |  |  |  |
+
