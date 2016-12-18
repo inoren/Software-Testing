@@ -287,7 +287,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
+#### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
@@ -296,7 +296,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.2, Failed to start server with only port number
+#### Test case 1.2, Failed to start server with only port number
 
 ![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/TestCase1.2.png "Inline style")
 
@@ -305,7 +305,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.3, Failed to start server with only shared resource container
+#### Test case 1.3, Failed to start server with only shared resource container
 
 ![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/TestCase1.3.png "Inline style")
 
@@ -314,7 +314,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.4, Failed to start server with only invalid port number
+#### Test case 1.4, Failed to start server with only invalid port number
 
 ![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/TestCase1.4.png "Inline style")
 
@@ -323,7 +323,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.5, Failed to start server with only incorrect shared resource container
+#### Test case 1.5, Failed to start server with only incorrect shared resource container
 
 ![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/TestCase1.5.png "Inline style")
 
@@ -332,7 +332,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
+#### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
 
 ![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/TestCase1.6.png "Inline style")
 
@@ -341,7 +341,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
+#### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
 
 ![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/TestCase1.7.png "Inline style")
 
@@ -351,7 +351,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
+#### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
 
 ![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/TestCase1.8.png "Inline style")
 
@@ -360,7 +360,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
+#### Test case 1.9, Server successfully startup with correct port number and correct shared resource container path
 
 ![TestCase1.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.9/TestCase1.9.png "Inline style")
 
@@ -370,7 +370,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.1, Failed to stop server with Uppercase stop command
+#### Test case 2.1, Failed to stop server with Uppercase stop command
 
 ![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.1/TestCase2.1.png "Inline style")
 
@@ -381,7 +381,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 
-### Test case 2.2, Failed to stop server with command’s first letter uppercase
+#### Test case 2.2, Failed to stop server with command’s first letter uppercase
 
 ![TestCase2.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.2/TestCase2.2.png "Inline style")
 
@@ -391,7 +391,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.3, Server stops successfully with correct command
+#### Test case 2.3, Server stops successfully with correct command
 
 ![TestCase2.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 2.3/TestCase2.3.png "Inline style")
 
@@ -400,48 +400,45 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test Case 3.1 , Create and Execute runnable jar file in command line
-
-![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/TestCaseWebserverWorks.png "Inline style")
-
-**Output**
-![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/Commandline.png "Inline style")
-
-***
-
-### Test case 4.1, Confirm the performance is stable
+#### Test case 2.4, Confirm the performance is stable
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 ***
 
-### Test case 2.5
+### Unit Testing (Req. 2.2.1 & 2.2.2)
+
+#### Test case 2.5
 
 ![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
 
 ***
 
-### Test case 2.6
+#### Test case 2.6
 
 ![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6.png "Inline style")
 
 ***
 
-### Test case 2.7
+#### Test case 2.7
 
 ![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7.png "Inline style")
 
 ***
 
-### Test case 2.8
+#### Test case 2.8
 
 ![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8.png "Inline style")
 
 ***
 
+### Integration Testing (Req. 2.3.6)
+
+
 ## 9. Test Report
 
-### Test case 2.5
+### Unit Testing (Req. 2.2.1 & 2.2.2)
+#### Test case 2.5
 
 ![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestResult2.5.png "Inline style")
 
@@ -450,7 +447,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.6
+#### Test case 2.6
 
 ![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestResult2.6.png "Inline style")
 
@@ -459,7 +456,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.7
+#### Test case 2.7
 
 ![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestResult2.7.png "Inline style")
 
@@ -468,7 +465,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 2.8
+#### Test case 2.8
 
 ![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
 
@@ -477,16 +474,18 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Integration Testing (Req. 2.3.6)
+
+
 ## 10. Test Evaluation
 
 ### Traceability Matrix
 
-| Requirements Identifiers | Reqs Tested | UC 1.1 | UC 1.2 | UC 1.3 | UC 1.4 | UC 1.5 | UC 1.6 | UC 1.7 | UC 1.8 | UC 1.9 | UC 2.1                        | UC 2.1      | UC 2.3 |
-| ------------------------ | ----------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ---------------------------- | ----------- | ------ |
-| Test Cases               |             |        |        |        |        |        |        |        |        |        ||||
-| Test implicitly          |             |        |        |        |        |        |        |        |        |        ||||
-
-
-
-
-
+| Requirements Identifiers | Reqs Tested | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 | REQ1 UC 1.1 |
+| -------- | -------- |  -------- |  -------- | -------- | -------- |  -------- | -------- | -------- | -------- |
+Test Cases      |  |  |  |  |  |  |
+Test implicitly |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
+1.1.1           |  |  |  |  |  |  |
