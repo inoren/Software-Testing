@@ -287,7 +287,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
  test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
 
-### Test case 1.1, Failed to stat server without providing any port number and shared resource folder path
+### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.1/TestCase1.1.png "Inline style")
 
@@ -296,7 +296,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.2, Failed to stat server with ony port number
+### Test case 1.2, Failed to start server with only port number
 
 ![TestCase1.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.2/TestCase1.2.png "Inline style")
 
@@ -305,7 +305,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.3, Failed to stat server with ony shared resource container
+### Test case 1.3, Failed to start server with only shared resource container
 
 ![TestCase1.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.3/TestCase1.3.png "Inline style")
 
@@ -314,7 +314,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.4, Failed to stat server with ony invalid port number
+### Test case 1.4, Failed to start server with only invalid port number
 
 ![TestCase1.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.4/TestCase1.4.png "Inline style")
 
@@ -323,7 +323,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.5, Failed to stat server with ony incorrect shared resource container
+### Test case 1.5, Failed to start server with only incorrect shared resource container
 
 ![TestCase1.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.5/TestCase1.5.png "Inline style")
 
@@ -332,7 +332,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.6, Failed to stat server with incorrect order of port and shared resource container
+### Test case 1.6, Failed to start server with incorrect order of port and shared resource container
 
 ![TestCase1.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.6/TestCase1.6.png "Inline style")
 
@@ -341,7 +341,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.7, Failed to stat server with incorrect port number and correct shared resource container
+### Test case 1.7, Failed to start server with incorrect port number and correct shared resource container
 
 ![TestCase1.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.7/TestCase1.7.png "Inline style")
 
@@ -351,7 +351,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Test case 1.8, Failed to stat server with correct port number and empty shared resource container path
+### Test case 1.8, Failed to start server with correct port number and empty shared resource container path
 
 ![TestCase1.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case 1.8/TestCase1.8.png "Inline style")
 
@@ -406,7 +406,67 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Test case 2.5
+
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5.png "Inline style")
+
+***
+
+### Test case 2.6
+
+![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6.png "Inline style")
+
+***
+
+### Test case 2.7
+
+![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7.png "Inline style")
+
+***
+
+### Test case 2.8
+
+![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8.png "Inline style")
+
+***
+
 ## 9. Test Report
+
+### Test case 2.5
+
+![TestCase2.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestResult2.5.png "Inline style")
+
+**Output**
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5Additional.png "Inline style")
+
+***
+
+### Test case 2.6
+
+![TestCase2.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestResult2.6.png "Inline style")
+
+**Output**
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.6/TestCase2.6Additional.png "Inline style")
+
+***
+
+### Test case 2.7
+
+![TestCase2.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestResult2.7.png "Inline style")
+
+**Output**
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.7/TestCase2.7Additional.png "Inline style")
+
+***
+
+### Test case 2.8
+
+![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
+
+**Output**
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
+
+***
 
 ## 10. Test Evaluation
 
