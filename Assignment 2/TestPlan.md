@@ -368,7 +368,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 2.4, Confirm the performance is stable
 
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
 
 ***
 
@@ -535,6 +535,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
+
+***
+### Performance Profiling
+
+#### Test case 2.4, Confirm the performance is stable
+
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 *** 
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
