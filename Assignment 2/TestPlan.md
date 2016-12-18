@@ -289,7 +289,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### General Test case , Create and Execute runnable jar file in command line
 
-![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/WebserverWorks.png "Inline style")
+![GeneralTestCase](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/TestCaseWebserverWorks.png "Inline style")
 
 **Output**
 ![WrongNumberOfArgumentsException](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Test Case WebserverWorks/Commandline.png "Inline style")
