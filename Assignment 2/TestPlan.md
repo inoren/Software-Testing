@@ -672,7 +672,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 |Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Test Cases| 10 |  |  | 1 |  |  | 14 | 3 |  |  |
+|Test Cases| 17 |  |  | 1 |  |  | 14 | 3 |  |  |
 |Test Implicitly|  |  |  |  |  |  |  |  |  |  |
 |0.1| 1 |  |  | x |  |  | x |  |  |  |
 |1.1| 1 |  |  |  |  |  | x |  |  |  |
