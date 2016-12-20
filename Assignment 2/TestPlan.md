@@ -431,6 +431,18 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Data and Integrity Testing (Req. 2.3.1)
+### Test case 4.1, Browser must show 404 Not found error
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Expected.png "Inline style")
+
+***
+
+### Test case 4.2, Browser must show 403 forbidden error
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Expected.png "Inline style")
+
+***
+
+
 ## 9. Test Report
 
 ### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
@@ -616,7 +628,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Integration Testing (Req. 2.3.6)
-
 #### Test case 2.9, Run existing Integration-Tests
 
 ![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
@@ -630,6 +641,28 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 #### Test case 3.0, Acess log viewable (Req. 2.3.3)
 
 ![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
+
+***
+
+### Data and Integrity Testing (Req. 2.3.1)
+### Test case 4.1, Browser must show 404 Not found error
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
+
+
+**Output**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result2.png "Inline style")
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result3.png "Inline style")
+
+***
+
+### Test case 4.2, Browser must show 403 forbidden error
+![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
+
+
+**Output**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result2.png "Inline style")
 
 ***
 
