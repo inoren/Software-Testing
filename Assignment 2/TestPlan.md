@@ -413,6 +413,18 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+#### Test case 3.1, HTTP 1.1 protocol (Req. 2.3.2)
+##### 200
+![TestCase3.1 200](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_200_design.PNG "TestCase 3.1 200")
+
+##### 404
+![TestCase3.1 404](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_404_design.PNG "TestCase 3.1 404")
+
+##### 405
+![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
+
+***
+
 ## 9. Test Report
 
 ### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
