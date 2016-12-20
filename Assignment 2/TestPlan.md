@@ -348,6 +348,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+#### Test case 1.10, Server failed to start because given port is already taken
+
+![TestCase1.10](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.10/TestCase1.10Expected.png "Inline style")
+
+***
+
 #### Test case 2.1, Failed to stop server with Uppercase stop command
 
 ![TestCase2.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.1/TestCase2.1Expected.png "Inline style")
@@ -522,6 +528,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.9/Result.png "Inline style")
 
 ***
+
+
+#### Test case 1.10, Server failed to start because given port is already taken
+
+![TestCase1.10](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.10/TestCase1.10Actual.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 1.10/Result.png "Inline style")
+
+***
+
 
 #### Test case 2.1, Failed to stop server with Uppercase stop command
 
