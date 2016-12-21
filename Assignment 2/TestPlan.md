@@ -651,6 +651,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Load Testing (Req. 2.7.1)
 #### Test case 3.2 
 ![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
 
@@ -682,7 +683,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Traceability Matrix
 
-|Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2|
+|Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2| Req 2.7.1 |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |Test Cases| 17 |  |  | 1 |  |  | 14 | 3 |  |  |
 |Test Implicitly|  |  |  |  |  |  |  |  |  |  |
@@ -706,6 +707,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |2.7|  |  |  |  |  |  |  |  |  |  |
 |2.8|  |  |  |  |  |  |  |  |  |  |
 |2.9|  |  |  |  |  |  |  |  |  |  |
-|3.0|  |  |  |  |  | x | x |  |  |  |
+|3.0| 2 |  |  |  |  | x | x |  |  |  |
 |3.1| 2 |  |  |  | x |  | x |  |  |  |
+|3.2| 2 |  |  |  |  |  | x |  |  |  | x |
 
