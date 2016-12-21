@@ -705,7 +705,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Test case 4.4, Browser successfully acces the resource folder
-![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.3Actual.png "Inline style")
+![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.4Actual.png "Inline style")
 
 
 **Output**
