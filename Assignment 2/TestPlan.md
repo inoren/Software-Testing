@@ -242,7 +242,7 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 5h | | 15/12/2016 16:54 | | |
+| Performance Profiling | Req. 2.6.2 | Henry | 5h | 1h | 15/12/2016 | 15/12/2016 |
 | **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
@@ -260,7 +260,7 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Start in reasonable time | Req. 2.6.1 | Singh | | | | | |
 | Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | | | | |
 | **Load Testing** |||||||
-| Responsive under high load | Req. 2.7.1 | Henry | | | | | |
+| Responsive under high load | Req. 2.7.1 | Henry | 2h | 1.4h | 21/12/2016 | 21/12/2016 |
 | **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
 
 
@@ -430,6 +430,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
 
 ***
+
+### Load Testing (Req: 2.7.1)
+#### Test case 3.2 
+![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2design.PNG "TestCase 3.2 load test")
+
+***
+
 
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
@@ -644,6 +651,11 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+#### Test case 3.2 
+![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
+
+***
+
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
 ![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
@@ -688,10 +700,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |2.1| 2 |  |  |  |  |  | x | x |  |  |
 |2.2| 2 |  |  |  |  |  | x | x |  |  |
 |2.3| 2 |  |  |  |  |  | x | x |  |  |
-|2.4|  |  |  |  |  |  |  |  |  |  |
+|2.4| 2 |  |  |  |  |  | x |  |  | x |
 |2.5|  |  |  |  |  |  |  |  |  |  |
 |2.6|  |  |  |  |  |  |  |  |  |  |
 |2.7|  |  |  |  |  |  |  |  |  |  |
 |2.8|  |  |  |  |  |  |  |  |  |  |
 |2.9|  |  |  |  |  |  |  |  |  |  |
+|3.0|  |  |  |  |  | x | x |  |  |  |
+|3.1| 2 |  |  |  | x |  | x |  |  |  |
 
