@@ -440,15 +440,30 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Expected.png "Inline style")
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/TestCase4.1Expected.png "Inline style")
 
 ***
 
 ### Test case 4.2, Browser must show 403 forbidden error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Expected.png "Inline style")
+![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/TestCase4.2Expected.png "Inline style")
 
 ***
 
+
+### Test case 4.3 Browser must show 400 bad request
+![TestCase4.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/TestCase4.3Expected.png "Inline style")
+
+***
+
+### Test case 4.4 Browser encounters an internal problem
+![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.4Expected.png "Inline style")
+
+***
+
+### Test case 4.5 Browser successfully access the resource folder
+![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.4Expected.png "Inline style")
+
+***
 
 ## 9. Test Report
 
@@ -659,25 +674,44 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
 
 
 **Output**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result1.png "Inline style")
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result2.png "Inline style")
-![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result3.png "Inline style")
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result2.png "Inline style")
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result3.png "Inline style")
 
 ***
 
 ### Test case 4.2, Browser must show 403 forbidden error
-![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
+![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
 
 
 **Output**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result1.png "Inline style")
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result2.png "Inline style")
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result2.png "Inline style")
 
 ***
+
+### Test case 4.3, Browser must show 404 bad request error
+![TestCase4.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/TestCase4.3Actual.png "Inline style")
+
+
+**Output**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result2.png "Inline style")
+
+***
+
+### Test case 4.4, Browser successfully acces the resource folder
+![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.3Actual.png "Inline style")
+
+
+**Output**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result1.png "Inline style")
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result2.png "Inline style")
+
 
 ## 10. Test Evaluation
 
@@ -709,4 +743,8 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |2.9|  |  |  |  |  |  |  |  |  |  |
 |3.0| 2 |  |  |  |  | x | x |  |  |  |
 |3.1| 2 |  |  |  | x |  | x |  |  |  |
+|4.1| 2 |  |  |  |  |  |  |  |  |  |
+|4.2| 2 |  |  |  |  |  |  |  |  |  |
+|4.3| 2 |  |  |  |  |  |  |  |  |  |
+|4.4| 2 |  |  |  |  |  |  |  |  |  |
 
