@@ -461,7 +461,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Test case 4.5 Browser successfully access the resource folder
-![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.4Expected.png "Inline style")
+![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.5Expected.png "Inline style")
 
 ***
 
@@ -677,9 +677,11 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
 
 
-**Output**
+**Output 1**
 ![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result1.png "Inline style")
+**Output 2**
 ![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result2.png "Inline style")
+**Output 3**
 ![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result3.png "Inline style")
 
 ***
@@ -688,8 +690,9 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
 
 
-**Output**
+**Output 1**
 ![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result1.png "Inline style")
+**Output 2**
 ![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result2.png "Inline style")
 
 ***
@@ -698,19 +701,31 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase4.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/TestCase4.3Actual.png "Inline style")
 
 
-**Output**
+**Output 1**
 ![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result2.png "Inline style")
+**Output 2**
 ![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result1.png "Inline style")
 
 ***
 
-### Test case 4.4, Browser successfully acces the resource folder
+### Test case 4.4, Browser encounters an internal problem
 ![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.4Actual.png "Inline style")
 
-
-**Output**
+**Output 1**
 ![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result1.png "Inline style")
+**Output 2**
 ![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result2.png "Inline style")
+
+***
+
+### Test case 4.5, Browser successfully acces the resource folder
+![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.5Actual.png "Inline style")
+
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/Result2.png "Inline style")
 
 
 ## 10. Test Evaluation
