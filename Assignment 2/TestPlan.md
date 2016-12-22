@@ -239,7 +239,7 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | 2h | | 18/12/2016 | |
 | Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
-| UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
+| UC2: Termination of webserver | Req. 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 5h | 1h | 15/12/2016 | 15/12/2016 |
@@ -375,9 +375,27 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.4, Confirm the performance is stable
+#### Test case 2.9, Run existing Integration-Tests
 
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
+
+***
+
+#### Test case 3.0, Acess log viewable (Req. 2.3.3)
+
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0design.PNG "TestCase 3.0")
+
+***
+
+#### Test case 3.1, HTTP 1.1 protocol (Req. 2.3.2)
+##### 200
+![TestCase3.1 200](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_200_design.PNG "TestCase 3.1 200")
+
+##### 404
+![TestCase3.1 404](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_404_design.PNG "TestCase 3.1 404")
+
+##### 405
+![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
 
 ***
 
@@ -408,31 +426,14 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Integration Testing (Req. 2.3.6)
+### Performance Testing
 
-#### Test case 2.9, Run existing Integration-Tests
+#### Test case 2.4, Confirm the performance is stable
 
-![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
-
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0design.PNG "TestCase 3.0")
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
 
 ***
 
-#### Test case 3.1, HTTP 1.1 protocol (Req. 2.3.2)
-##### 200
-![TestCase3.1 200](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_200_design.PNG "TestCase 3.1 200")
-
-##### 404
-![TestCase3.1 404](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_404_design.PNG "TestCase 3.1 404")
-
-##### 405
-![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
-
-***
 
 ### Load Testing (Req: 2.7.1)
 #### Test case 3.2
@@ -619,6 +620,30 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
 
 ***
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
+
+***
+
+#### Test case 3.0, Acess log viewable (Req. 2.3.3)
+
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
+
+***
+
+### Load Testing (Req. 2.7.1)
+#### Test case 3.2
+![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
+
+***
+
+
 ### Performance Profiling
 
 #### Test case 2.4, Confirm the performance is stable
@@ -665,29 +690,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 
 ![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
-
-***
-
-### Integration Testing (Req. 2.3.6)
-#### Test case 2.9, Run existing Integration-Tests
-
-![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
-
-**Output**
-
-![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
-
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
-
-***
-
-### Load Testing (Req. 2.7.1)
-#### Test case 3.2
-![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
 
 ***
 
