@@ -289,8 +289,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 0.1, Webserver works on Windows, Linus and Mac OS
 
+##### MacOS
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Expected.png "Inline style")
+##### Linux
+![TestCase0.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.2.png "Inline style")
+##### Windows Server 2008
 ![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestCaseWindowsServerOS.png)
+
 ***
 
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
@@ -469,6 +474,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 0.1, Webserver works on Windows, Linus and Mac OS
 
+##### MacOS
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
 
 **Output**
@@ -476,10 +482,20 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+##### Linux
+
+![TestCase0.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestResult0.2.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.2Additional.png "Inline style")
+
+***
+##### Windows 2008 Server
 ![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestResultWindowsServerOS.png)
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestCaseWindowsServerOSAdditional.png)
+
 
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
