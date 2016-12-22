@@ -753,4 +753,4 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ## 10. Test Evaluation
 ### Traceability Matrix
 |Requirements Identifiers|Reqs Tested|Req 2.1.1|Req 2.1.2|Req 2.1.3|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.3.7|Req 2.4.1|Req 2.5.1|Req 2.6.1|Req 2.6.2|Req 2.6.3|Req 2.7.1|Req 2.9.1|Req 2.11.1|Req 2.12.1|Req 2.13.1|
-|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
