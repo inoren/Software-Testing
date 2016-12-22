@@ -251,8 +251,8 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
-| UC3: System delivers to browser |  Req. 2.1.1 | Singh | | | | |
-| Verify correct retrieval   |  Req. 2.1.2 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
+| UC3: System delivers to browser |  Req. 2.1.1 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
+| Verify correct retrieval   |  Req. 2.1.2 | Singh |  |  | | |
 | Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
