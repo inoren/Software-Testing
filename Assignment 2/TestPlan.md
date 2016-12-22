@@ -239,7 +239,7 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | HTTP 1.1 Standard | Req. 2.3.2 | Henry | 2h | | 18/12/2016 | |
 | Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
 | UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
-| UC2: Termination of webserver | 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
+| UC2: Termination of webserver | Req. 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
 | Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
 | Performance Profiling | Req. 2.6.2 | Henry | 5h | 1h | 15/12/2016 | 15/12/2016 |
@@ -251,8 +251,8 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
-| UC3: System delivers to browser |  Req. 2.1.1 | Singh | | | | |
-| Verify correct retrieval   |  Req. 2.1.2 | Singh | | | | |
+| UC3: System delivers to browser |  Req. 2.1.1 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
+| Verify correct retrieval   |  Req. 2.1.2 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
 | Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
@@ -285,13 +285,16 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 8. Test Design (Test-cases)
 
- test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
-
 ### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
 
 #### Test case 0.1, Webserver works on Windows, Linus and Mac OS
 
+##### MacOS
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Expected.png "Inline style")
+##### Linux
+![TestCase0.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.2.png "Inline style")
+##### Windows Server 2008
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestCaseWindowsServerOS.png)
 
 ***
 
@@ -372,9 +375,27 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.4, Confirm the performance is stable
+#### Test case 2.9, Run existing Integration-Tests
 
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
+
+***
+
+#### Test case 3.0, Acess log viewable (Req. 2.3.3)
+
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0design.PNG "TestCase 3.0")
+
+***
+
+#### Test case 3.1, HTTP 1.1 protocol (Req. 2.3.2)
+##### 200
+![TestCase3.1 200](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_200_design.PNG "TestCase 3.1 200")
+
+##### 404
+![TestCase3.1 404](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_404_design.PNG "TestCase 3.1 404")
+
+##### 405
+![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
 
 ***
 
@@ -405,34 +426,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Integration Testing (Req. 2.3.6)
+### Performance Testing
 
-#### Test case 2.9, Run existing Integration-Tests
+#### Test case 2.4, Confirm the performance is stable
 
-![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9.png "Inline style")
-
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0design.PNG "TestCase 3.0")
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
 
 ***
 
-#### Test case 3.1, HTTP 1.1 protocol (Req. 2.3.2)
-##### 200
-![TestCase3.1 200](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_200_design.PNG "TestCase 3.1 200")
-
-##### 404
-![TestCase3.1 404](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_404_design.PNG "TestCase 3.1 404")
-
-##### 405
-![TestCase3.1 405](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestCase3.1_405_design.PNG "TestCase 3.1 405")
-
-***
 
 ### Load Testing (Req: 2.7.1)
-#### Test case 3.2 
+#### Test case 3.2
 ![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2design.PNG "TestCase 3.2 load test")
 
 ***
@@ -440,15 +444,36 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Expected.png "Inline style")
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/TestCase4.1Expected.png "Inline style")
 
 ***
 
 ### Test case 4.2, Browser must show 403 forbidden error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Expected.png "Inline style")
+![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/TestCase4.2Expected.png "Inline style")
 
 ***
 
+
+### Test case 4.3 Browser must show 400 bad request
+![TestCase4.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/TestCase4.3Expected.png "Inline style")
+
+***
+
+### Test case 4.4 Browser encounters an internal problem
+![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.4Expected.png "Inline style")
+
+***
+
+### Test case 4.5 Browser successfully access the resource folder
+![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.5Expected.png "Inline style")
+
+***
+
+### Test case 4.6, Verify correct retrieval of data from the shared resource folder
+![TestCase4.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/TestCase4.6Expected.png "Inline style")
+
+
+***
 
 ## 9. Test Report
 
@@ -456,12 +481,30 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 0.1, Webserver works on Windows, Linus and Mac OS
 
+##### MacOS
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
 
-**Output**
-![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result.png "Inline style")
+**Output 1**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result1.png "Inline style")
+**Output 2**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result2.png "Inline style")
 
 ***
+
+##### Linux
+
+![TestCase0.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestResult0.2.png "Inline style")
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.2Additional.png "Inline style")
+
+***
+##### Windows 2008 Server
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestResultWindowsServerOS.png)
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestCaseWindowsServerOSAdditional.png)
+
 
 #### Test case 1.1, Failed to start server without providing any port number and shared resource folder path
 
@@ -585,13 +628,37 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 2.3/Result.png "Inline style")
 
 ***
+
+#### Test case 2.9, Run existing Integration-Tests
+
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
+
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
+
+***
+
+#### Test case 3.0, Acess log viewable (Req. 2.3.3)
+
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
+
+***
+
+### Load Testing (Req. 2.7.1)
+#### Test case 3.2
+![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
+
+***
+
+
 ### Performance Profiling
 
 #### Test case 2.4, Confirm the performance is stable
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
-*** 
+***
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
@@ -634,79 +701,110 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Integration Testing (Req. 2.3.6)
-#### Test case 2.9, Run existing Integration-Tests
-
-![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
-
-**Output**
-
-![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
-
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
-
-***
-
-### Load Testing (Req. 2.7.1)
-#### Test case 3.2 
-![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
-
-***
-
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
-![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
+![TestCase4.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/TestCase4.1Actual.png "Inline style")
 
 
-**Output**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result1.png "Inline style")
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result2.png "Inline style")
-![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.1/Result3.png "Inline style")
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result2.png "Inline style")
+**Output 3**
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.1/Result3.png "Inline style")
 
 ***
 
 ### Test case 4.2, Browser must show 403 forbidden error
-![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
+![TestCase4.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/TestCase4.2Actual.png "Inline style")
 
 
-**Output**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result1.png "Inline style")
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 4.2/Result2.png "Inline style")
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.2/Result2.png "Inline style")
 
 ***
 
+### Test case 4.3, Browser must show 404 bad request error
+![TestCase4.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/TestCase4.3Actual.png "Inline style")
+
+
+**Output 1**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result2.png "Inline style")
+**Output 2**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.3/Result1.png "Inline style")
+
+***
+
+### Test case 4.4, Browser encounters an internal problem
+![TestCase4.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/TestCase4.4Actual.png "Inline style")
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.4/Result2.png "Inline style")
+
+***
+
+### Test case 4.5, Browser successfully acces the resource folder
+![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.5Actual.png "Inline style")
+
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/Result2.png "Inline style")
+
+***
+
+
+### Test case 4.6, Verify correct retrieval of data from the shared resource folder
+![TestCase4.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/TestCase4.6Actual.png "Inline style")
+
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/Result2.png "Inline style")
+
+
+***
+
+
+
 ## 10. Test Evaluation
-
 ### Traceability Matrix
-
-|Requirements Identifiers|Reqs Tested|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.6.2|
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|Test Cases| 17 |  |  | 1 |  |  | 14 | 3 |  |  |
-|Test Implicitly|  |  |  |  |  |  |  |  |  |  |
-|0.1| 1 |  |  | x |  |  | x |  |  |  |
-|1.1| 1 |  |  |  |  |  | x |  |  |  |
-|1.2| 1 |  |  |  |  |  | x |  |  |  |
-|1.3| 1 |  |  |  |  |  | x |  |  |  |
-|1.4| 1 |  |  |  |  |  | x |  |  |  |
-|1.5| 1 |  |  |  |  |  | x |  |  |  |
-|1.6| 1 |  |  |  |  |  | x |  |  |  |
-|1.7| 1 |  |  |  |  |  | x |  |  |  |
-|1.8| 1 |  |  |  |  |  | x |  |  |  |
-|1.9| 1 |  |  |  |  |  | x |  |  |  |
-|1.10| 1 |  |  |  |  |  | x |  |  |  |
-|2.1| 2 |  |  |  |  |  | x | x |  |  |
-|2.2| 2 |  |  |  |  |  | x | x |  |  |
-|2.3| 2 |  |  |  |  |  | x | x |  |  |
-|2.4| 2 |  |  |  |  |  | x |  |  | x |
-|2.5|  |  |  |  |  |  |  |  |  |  |
-|2.6|  |  |  |  |  |  |  |  |  |  |
-|2.7|  |  |  |  |  |  |  |  |  |  |
-|2.8|  |  |  |  |  |  |  |  |  |  |
-|2.9|  |  |  |  |  |  |  |  |  |  |
-|3.0| 2 |  |  |  |  | x | x |  |  |  |
-|3.1| 2 |  |  |  | x |  | x |  |  |  |
-
+|Requirements Identifiers|Reqs Tested|Req 2.1.1|Req 2.1.2|Req 2.1.3|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.3.7|Req 2.4.1|Req 2.5.1|Req 2.6.1|Req 2.6.2|Req 2.6.3|Req 2.7.1|Req 2.9.1|Req 2.11.1|Req 2.12.1|Req 2.13.1|
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|Test Cases| 28 | 5 | 1 |  |  |  | 1 | 1 | 1 | 22 | 3 |  |  |  |  |  | 1 |  |  |  |  |  |  |
+|Test Implicitly|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|0.1| 2 |  |  |  |  |  | x |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.1| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.2| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.3| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.4| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.5| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.6| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.7| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.8| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.9| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|1.10| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.1| 2 |  |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.2| 2 |  |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.3| 2 |  |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.4| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |
+|2.5|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.6|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.7|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.8|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|2.9|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|3.0| 2 |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|3.1| 2 |  |  |  |  |  |  | x |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|3.2|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.1| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.2| 1 | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.3| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.4| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.5| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.6| 2 |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
