@@ -252,7 +252,7 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
 | UC3: System delivers to browser |  Req. 2.1.1 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
-| Verify correct retrieval   |  Req. 2.1.2 | Singh |  |  | | |
+| Verify correct retrieval   |  Req. 2.1.2 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
 | Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
@@ -777,7 +777,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ### Traceability Matrix
 |Requirements Identifiers|Reqs Tested|Req 2.1.1|Req 2.1.2|Req 2.1.3|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.3.7|Req 2.4.1|Req 2.5.1|Req 2.6.1|Req 2.6.2|Req 2.6.3|Req 2.7.1|Req 2.9.1|Req 2.11.1|Req 2.12.1|Req 2.13.1|
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-|Test Cases| 28 | 5 |  |  |  |  | 1 | 1 | 1 | 21 | 3 |  |  |  |  |  | 1 |  |  |  |  |  |  |
+|Test Cases| 28 | 5 | 1 |  |  |  | 1 | 1 | 1 | 22 | 3 |  |  |  |  |  | 1 |  |  |  |  |  |  |
 |Test Implicitly|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |0.1| 2 |  |  |  |  |  | x |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |1.1| 1 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -807,4 +807,4 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |4.3| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.4| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.5| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|4.6|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.6| 2 |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
