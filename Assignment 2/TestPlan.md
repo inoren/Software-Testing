@@ -285,8 +285,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ## 8. Test Design (Test-cases)
 
- test case template (https://docs.google.com/document/d/1JUaNOEnajNpEupUgLWbD7Xu_F87A6j-LoOXwigBLtsE/edit)
-
 ### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
 
 #### Test case 0.1, Webserver works on Windows, Linus and Mac OS
@@ -432,7 +430,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Load Testing (Req: 2.7.1)
-#### Test case 3.2 
+#### Test case 3.2
 ![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2design.PNG "TestCase 3.2 load test")
 
 ***
@@ -606,7 +604,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
-*** 
+***
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
@@ -667,7 +665,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Load Testing (Req. 2.7.1)
-#### Test case 3.2 
+#### Test case 3.2
 ![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
 
 ***
