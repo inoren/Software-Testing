@@ -748,6 +748,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output 2**
 ![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/Result2.png "Inline style")
 
+***
 
 ## 10. Test Evaluation
 ### Traceability Matrix
