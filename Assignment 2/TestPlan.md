@@ -252,7 +252,7 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
 | UC3: System delivers to browser |  Req. 2.1.1 | Singh | | | | |
-| Verify correct retrieval   |  Req. 2.1.2 | Singh | | | | |
+| Verify correct retrieval   |  Req. 2.1.2 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
 | Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
@@ -466,6 +466,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ### Test case 4.5 Browser successfully access the resource folder
 ![TestCase4.5](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.5/TestCase4.5Expected.png "Inline style")
+
+***
+
+### Test case 4.6, Verify correct retrieval of data from the shared resource folder
+
+
 
 ***
 
