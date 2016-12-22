@@ -470,7 +470,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 ### Test case 4.6, Verify correct retrieval of data from the shared resource folder
-
+![TestCase4.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/TestCase4.6Expected.png "Inline style")
 
 
 ***
@@ -758,6 +758,21 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+
+### Test case 4.6, Verify correct retrieval of data from the shared resource folder
+![TestCase4.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/TestCase4.6Actual.png "Inline style")
+
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/Result2.png "Inline style")
+
+
+***
+
+
+
 ## 10. Test Evaluation
 ### Traceability Matrix
 |Requirements Identifiers|Reqs Tested|Req 2.1.1|Req 2.1.2|Req 2.1.3|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.3.7|Req 2.4.1|Req 2.5.1|Req 2.6.1|Req 2.6.2|Req 2.6.3|Req 2.7.1|Req 2.9.1|Req 2.11.1|Req 2.12.1|Req 2.13.1|
@@ -792,3 +807,4 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |4.3| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.4| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.5| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.6|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
