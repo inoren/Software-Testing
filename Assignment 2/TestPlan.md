@@ -253,7 +253,7 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | **Data Integrity Testing**  |||||||
 | UC3: System delivers to browser |  Req. 2.1.1 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
 | Verify correct retrieval   |  Req. 2.1.2 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
-| Verfiy simultaneous access | Req. 2.1.3 | Henry | | | | |
+| Verfiy simultaneous access | Req. 2.1.3 | Henry | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
 | **Performance Testing** |||||||
@@ -816,10 +816,11 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |2.9|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |3.0| 2 |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |3.1| 2 |  |  |  |  |  |  | x |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|3.2|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|3.2| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  | x |  |  |  |  |
 |4.1| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.2| 1 | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.3| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.4| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.5| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.6| 2 |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.7| 2 |  |  | x |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
