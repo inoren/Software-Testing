@@ -478,8 +478,10 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ##### MacOS
 ![TestCase1.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/TestCase0.1Actual.png "Inline style")
 
-**Output**
-![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result.png "Inline style")
+**Output 1**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result1.png "Inline style")
+**Output 2**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Function Testing/Test Case 0.1/Result2.png "Inline style")
 
 ***
 
