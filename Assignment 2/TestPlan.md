@@ -494,6 +494,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Performance Testing (Req. 2.6.1)
+#### Test Case 4.8 Verify loading of page in a reasonable time
+![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Expected.png "Inline style")
+
+***
+
 ## 9. Test Report
 
 ### Function Testing (Req. 2.3.1, 2.3.4 & 2.3.5)
@@ -830,7 +836,18 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+### Performance Testing (Req. 2.6.1)
+#### Test Case 4.8 Verify loading of page in a reasonable time
+![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Actual.png "Inline style")
 
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result2.png "Inline style")
+**Output 3**
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result3.png "Inline style")
+
+**
 
 ## 10. Test Evaluation
 ### Traceability Matrix
@@ -868,3 +885,4 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |4.5| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.6| 2 |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.7| 2 |  |  | x |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|4.8| 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
