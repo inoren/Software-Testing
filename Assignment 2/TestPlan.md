@@ -295,6 +295,12 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase0.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.2.png "Inline style")
 ##### Windows 10
 ![TestCase0.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/TestCase0.3.PNG "Inline style")
+##### Windows 8
+![TestCase0.2a](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Windows8.png)
+##### Windows 7
+![TestCase0.2b](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Windows7.png)
+##### Windows XP
+![TestCase0.2c](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/WindowsXP.png)
 ##### Windows Server 2008
 ![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Test%20Case%20Windows%202008%20Server/TestCaseWindowsServerOS.png)
 
@@ -514,6 +520,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 ![Result_a](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/output0.3_1.PNG "output 1")
 ![Result_b](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/output0.3_2.PNG "output 2")
+
+##### Windows 8
+![TestResult0.2a](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Windows8Result.png)
+##### Windows 7
+![TestResult0.2b](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/Windows7Result.png)
+##### Windows XP
+![TestResult0.2c](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%200.1/WindowsXPResult.png)
 
 ***
 ##### Windows 2008 Server
