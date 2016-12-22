@@ -446,7 +446,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 #### Test case 3.4, Access time in LAN
-![TestCase3.4]()
+![TestResult3.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestResult3.4.png)
 
 
 ### Load Testing (Req: 2.7.1)
@@ -726,7 +726,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase2.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestResult2.8.png "Inline style")
 
 **Output**
-
 ![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
 
 ***
@@ -741,12 +740,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test case 3.4, Access time in LAN
 
+![TestResult3.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestResult3.4.png)
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestCase3.4Additional.png)
+
 
 ### Load Testing (Req. 2.7.1)
 #### Test case 3.2
 ![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
 
-**output**
+**Output**
 ![Graph Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/GraphResult.PNG "TestCase 3.2 result")
 
 ***
