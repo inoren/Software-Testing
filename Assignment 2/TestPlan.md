@@ -124,7 +124,7 @@ This section will describe *how* it will be tested.The main considerations for t
 #### 3.1.1 Data Integrity Testing
 The data access and process should be tested within the running system. The retrieval of data can be tested in an automated suite, while the integrity and correctness must be tested manually.
 
-![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png "Inline style")
+![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png)
 
 #### 3.1.2 Unit Testing
 ![Unit_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UnitTesting.png "Inline style")
@@ -255,10 +255,10 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Verify correct retrieval   |  Req. 2.1.2 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
 | Verfiy simultaneous access | Req. 2.1.3 | Henry | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Function-Testing**  |||||||
-| Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | | | |
+| Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Performance Testing** |||||||
 | Start in reasonable time | Req. 2.6.1 | Singh | | | | | |
-| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | | | | |
+| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 | |
 | **Load Testing** |||||||
 | Responsive under high load | Req. 2.7.1 | Henry | 2h | 1.4h | 21/12/2016 | 21/12/2016 |
 | **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
@@ -407,6 +407,9 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+#### Test case 3.3, verifying server behavior in a LAN
+![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3.PNG "Inline style")
+
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
@@ -441,6 +444,9 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4design.PNG "Test Case 2.4")
 
 ***
+
+#### Test case 3.4, Access time in LAN
+![TestCase3.4]()
 
 
 ### Load Testing (Req: 2.7.1)
@@ -675,23 +681,14 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Load Testing (Req. 2.7.1)
-#### Test case 3.2
-![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
+#### Test case 3.3, verifying server behavior in a LAN
+![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestResult3.3.PNG "Inline style")
 
-**output**
-![Graph Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/GraphResult.PNG "TestCase 3.2 result")
+**Output**
 
-***
+![TestResut](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3Additional.PNG "Inline style")
 
 
-### Performance Profiling
-
-#### Test case 2.4, Confirm the performance is stable
-
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
-
-***
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
@@ -733,6 +730,27 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.8/TestCase2.8Additional.png "Inline style")
 
 ***
+
+### Performance Profiling
+
+#### Test case 2.4, Confirm the performance is stable
+
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
+
+***
+
+#### Test case 3.4, Access time in LAN
+
+
+### Load Testing (Req. 2.7.1)
+#### Test case 3.2
+![TestCase3.2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/TestCase3.2.PNG "TestCase 3.2 load test")
+
+**output**
+![Graph Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Load%20Testing/Test%20Case%203.2/GraphResult.PNG "TestCase 3.2 result")
+
+***
+
 
 ### Data and Integrity Testing (Req. 2.3.1)
 ### Test case 4.1, Browser must show 404 Not found error
