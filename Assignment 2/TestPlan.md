@@ -234,18 +234,18 @@ The first iteration is set from the 14/12/2016 until the 18/12/2016. Until then 
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Unit-Testing**  |||||||
-| Confirm JUnit-Testsuit |  Req. 2.2.1 | Jakob | 5h | 5h | 18/12/2016 | 18/12/2016 |
-| Verify unit-coverage   |  Req. 2.2.2 | Jakob | 2h | 3h | 18/12/2016 | 18/12/2016|
+| Confirm JUnit-Testsuit |  Req. 2.2.1 | Tester1 | 5h | 5h | 18/12/2016 | 18/12/2016 |
+| Verify unit-coverage   |  Req. 2.2.2 | Tester1 | 2h | 3h | 18/12/2016 | 18/12/2016|
 | **Function-Testing**  |||||||
-| Webserver works on OS's | Req 2.3.1  | **Singh**, Henry, Jakob | 2h | 2h | 18/12/2016 | 18/12/2016 |
-| HTTP 1.1 Standard | Req. 2.3.2 | Henry | 2h | | 18/12/2016 | |
-| Access log viewable | Req. 2.3.3 | Henry | 1h | 40min | 18/12/2016 | 18/12/2016 |
-| UC1: Start of webserver | Req. 2.3.4 | Singh | 5h | 5h | 14/12/2106 | 17/12/2106 |
-| UC2: Termination of webserver | Req. 2.3.5 | Singh | 2h | 1h | 16/12/2106 | 16/12/2106 |
-| Verify Integration-Tests | Req. 2.3.6 | Jakob | 5h | 2h | 18/12/2016 | 18/12/2016 |
+| Webserver works on OS's | Req 2.3.1  | **Tester2**, Tester3, Tester1 | 2h | 2h | 18/12/2016 | 18/12/2016 |
+| HTTP 1.1 Standard | Req. 2.3.2 | Tester3 | 2h | 2h | 18/12/2016 | 18/12/2016 |
+| Access log viewable | Req. 2.3.3 | Tester3 | 1h | 40min | 18/12/2016 | 18/12/2016 |
+| UC1: Start of webserver | Req. 2.3.4 | Tester2 | 5h | 5h | 14/12/2106 | 17/12/2106 |
+| UC2: Termination of webserver | Req. 2.3.5 | Tester2 | 2h | 1h | 16/12/2106 | 16/12/2106 |
+| Verify Integration-Tests | Req. 2.3.6 | Tester1 | 5h | 2h | 18/12/2016 | 18/12/2016 |
 | **Performance Testing** |||||||
-| Performance Profiling | Req. 2.6.2 | Henry | 5h | 1h | 15/12/2016 | 15/12/2016 |
-| **Total** | | | Sum of all (35-40?) | | 14/12/2016 | 18/12/2016 |
+| Performance Profiling | Req. 2.6.2 | Tester3 | 5h | 1h | 15/12/2016 | 15/12/2016 |
+| **Total** | | | ~25h | | 14/12/2016 | 18/12/2016 |
 
 ### Iteration \#2
 The first iteration is set from the 18/12/2016 until the 21/12/2016.
@@ -253,17 +253,17 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **Data Integrity Testing**  |||||||
-| UC3: System delivers to browser |  Req. 2.1.1 | Singh | 7h | 5h | 20/12/2016| 21/12/2016|
-| Verify correct retrieval   |  Req. 2.1.2 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
-| Verfiy simultaneous access | Req. 2.1.3 | Henry | 2h | 2h | 22/12/2016 | 22/12/2016 |
+| UC3: System delivers to browser |  Req. 2.1.1 | Tester2 | 7h | 5h | 20/12/2016| 21/12/2016|
+| Verify correct retrieval   |  Req. 2.1.2 | Tester2 | 2h | 1h | 22/12/2016| 22/12/2016|
+| Verfiy simultaneous access | Req. 2.1.3 | Tester3 | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Function-Testing**  |||||||
-| Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 |
+| Verify behavior in LAN  | Req 2.3.7 | Tester1 | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Performance Testing** |||||||
-| Start in reasonable time | Req. 2.6.1 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
-| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 |
+| Start in reasonable time | Req. 2.6.1 | Tester2 | 2h | 1h | 22/12/2016| 22/12/2016|
+| Access-Time in LAN | Req. 2.6.3 | Tester1 | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Load Testing** |||||||
-| Responsive under high load | Req. 2.7.1 | Henry | 2h | 1.4h | 21/12/2016 | 21/12/2016 |
-| **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
+| Responsive under high load | Req. 2.7.1 | Tester3 | 2h | 1.4h | 21/12/2016 | 21/12/2016 |
+| **Total** | | | Sum of all (35-40?) | ~20h | 18/12/2016 | 21/12/2016 |
 
 
 ### Iteration \#3
@@ -272,17 +272,17 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 | Goals/Milestones  | Requirement-Number |   Responsible Tester | Estimated Time | Work Time | Start-Date | End-Date |
 | -------- | -------- |  -------- |  -------- | -------- | :--------: |  :--------: |
 | **UI Testing**  |||||||
-| Verify easy access |  Req. 2.5.1 | Singh | | | | |
+| Verify easy access |  Req. 2.5.1 | Tester2 | | | | |
 | **Security and Access Testing**  |||||||
-| Webserver security report | Req. 2.9.1 | Jakob | | | | |
+| Webserver security report | Req. 2.9.1 | Tester1 | | | | |
 | **Configuration Testing**  |||||||
-| Minimal Configuration  | Req 2.12.1 | Henry | | | | |
+| Minimal Configuration  | Req 2.12.1 | Tester3 | | | | |
 | **Installation Testing** |||||||
-| Easy deployment of server  | Req. 2.13.1 | Henry | | | | | |
+| Easy deployment of server  | Req. 2.13.1 | Tester3 | | | | | |
 | **API Testing** |||||||
-| Easy integration and adaptation | Req. 2.11.1 | Jakob | | | | | |
+| Easy integration and adaptation | Req. 2.11.1 | Tester1 | | | | | |
 | **Business Cycle Testing** |||||||
-|  GPL-2 License published  | Req. 2.4.1 | Singh | | | | | |
+|  GPL-2 License published  | Req. 2.4.1 | Tester2 | | | | | |
 | **Total** | | | Sum of all (35-40?) | | 21/12/2016 | 23/12/2016 |
 
 ## 8. Test Design (Test-cases)
