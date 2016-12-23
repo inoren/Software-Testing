@@ -450,6 +450,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 #### Test case 3.4, Access time in LAN
 ![TestResult3.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestResult3.4.png)
 
+***
+
+#### Test Case 4.8 Verify loading of page in a reasonable time
+![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Expected.png "Inline style")
+
+***
+
 
 ### Load Testing (Req: 2.7.1)
 #### Test case 3.2
@@ -493,12 +500,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 #### Test Case 4.7, Verify simultaneous connections on the server
 ![TestCase4.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Data%20and%20Integrity%20Testing/Test%20Case%204.7/TestCase4.7design.PNG "TestCase 4.7")
-
-***
-
-### Performance Testing (Req. 2.6.1)
-#### Test Case 4.8 Verify loading of page in a reasonable time
-![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Expected.png "Inline style")
 
 ***
 
@@ -752,6 +753,18 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestCase3.4Additional.png)
 
+#### Test Case 4.8 Verify loading of page in a reasonable time
+![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Actual.png "Inline style")
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result2.png "Inline style")
+**Output 3**
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result3.png "Inline style")
+
+**
+
 
 ### Load Testing (Req. 2.7.1)
 #### Test case 3.2
@@ -842,19 +855,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Performance Testing (Req. 2.6.1)
-#### Test Case 4.8 Verify loading of page in a reasonable time
-![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Actual.png "Inline style")
-
-**Output 1**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result1.png "Inline style")
-**Output 2**
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result2.png "Inline style")
-**Output 3**
-![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result3.png "Inline style")
-
-**
-
 ## 10. Test Evaluation
 ### Traceability Matrix
 |Requirements Identifiers|Reqs Tested|Req 2.1.1|Req 2.1.2|Req 2.1.3|Req 2.2.1|Req 2.2.2|Req 2.3.1|Req 2.3.2|Req 2.3.3|Req 2.3.4|Req 2.3.5|Req 2.3.6|Req 2.3.7|Req 2.4.1|Req 2.5.1|Req 2.6.1|Req 2.6.2|Req 2.6.3|Req 2.7.1|Req 2.9.1|Req 2.11.1|Req 2.12.1|Req 2.13.1|
@@ -884,6 +884,8 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |3.0| 2 |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |3.1| 2 |  |  |  |  |  |  | x |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |3.2| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  | x |  |  |  |  |
+|3.3| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  | x |  |  |  |  |
+|3.4| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  | x |  |  |  |  |
 |4.1| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.2| 1 | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.3| 2 | x |  |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -892,3 +894,20 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 |4.6| 2 |  | x |  |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.7| 2 |  |  | x |  |  |  |  |  | x |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |4.8| 2 |  |  |  |  |  |  |  |  | x |  |  |  |  |  | x |  |  |  |  |  |  |  |
+Test-Traceability-Matrix to overview Requirement-Coverage of our test-cases.
+
+
+The Test-Project shows that the current project is stable, fulfills all functional requirements and gives good performance. The data-access and integrity tests verified that all data in the shared folder can be retrieved correctly and without manipulation of it. The functional tests verify that the server starts and terminates properly, this is verified in all required operating systems. (Linux, Mac OS, Windows 10, 8, 7 , XP and Windows Server 2008)  The existing integration and response tests passed and verify that the project works properly and are a proficient start for regression tests. The test which failed was due to the deployment on a local-machine since it tested if the server is online. For the SUT some additional log-tests are needed which verify the writing to the log file.The server can be accesses in a LAN Network an behaves normally and the project has a good performance for single and multiple users as our load and performance tests have shown. However of course it will depend on the actual hardware-server it is deployed on as well as other factors such as broadband, firewalls or the running operating system. The identified errors from our tests listed:
+
+- No new logs are written but access log is viewable in a text editor
+- "403 forbidden"-message could not get reproduces. However by inspecting the code we know a security exception will be thrown if someone tries to access a file which is outside the shared folder. With various hacking-techniques this could be produced.
+- When accessing the server simultaneously the error rate is about 18%. This rate is to high but should be tested on a a real server-environment since the local machine had very limited resources.
+- No proper error message is shown when server encounters an internal problem
+
+In the third Iteration no tests got designed and executed due to resource limitations and unreachable test-areas (e.g. no API). However the results can be summarized as the following:
+- Business cycle testing: The licensing of the source code must be investigated together with the legal department. Current licensing is MIT on GitHub.
+- Security Testing: A run of a standard SUT of security tests (Tool: Nikto) showed that no standard security is enabled such as HTTP headers, CGI etc. There is also no authentication features of similar implemented. Only security given is that no resources outside the shared folder can be accessed. It is recommended to test the security more in detail under the deployment conditions, since the security vulnerabilities of a server machine are much different to a local one and can not be easily mocked.
+- API Testing: The project does not have an actual API or any other kind of presentable documentation. It is one of the greatest needs to improve to make the project easy to integrate and adopt for developers.
+- Installation and Configuration testing: The server is very easy to deploy and configure as shown in various other tests. (E.g. Deployment and running on different OS)
+
+Summarized we can recommend to use this project as a start for an IoT-Server. However proper security and documentation such as the log file needs to be added and a test on simultaneous access must be redone in another environment.
