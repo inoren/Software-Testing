@@ -1,5 +1,11 @@
 # Test-Project
 
+## Important Note:
+The Inline-pictures in this document may partly not get displayed correctly in the peer-review-system.
+So please visit the GitHub-Repo for all Test-Cases, References or Code.
+
+GitHub: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md
+
 ## Table of Contents
 ### 1. [Introduction]
 [Introduction]:https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/TestPlan.md#1-introduction-1
