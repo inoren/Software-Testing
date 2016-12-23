@@ -259,8 +259,8 @@ The first iteration is set from the 18/12/2016 until the 21/12/2016.
 | **Function-Testing**  |||||||
 | Verify behavior in LAN  | Req 2.3.7 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Performance Testing** |||||||
-| Start in reasonable time | Req. 2.6.1 | Singh | | | | | |
-| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 | |
+| Start in reasonable time | Req. 2.6.1 | Singh | 2h | 1h | 22/12/2016| 22/12/2016|
+| Access-Time in LAN | Req. 2.6.3 | Jakob | 2h | 2h | 22/12/2016 | 22/12/2016 |
 | **Load Testing** |||||||
 | Responsive under high load | Req. 2.7.1 | Henry | 2h | 1.4h | 21/12/2016 | 21/12/2016 |
 | **Total** | | | Sum of all (35-40?) | | 18/12/2016 | 21/12/2016 |
