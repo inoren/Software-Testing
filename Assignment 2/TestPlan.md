@@ -38,14 +38,14 @@ My Web Server is an open source software. The Software Development Company (SDC)
 
 ### 1.4 Goals
 - SDC
- - easy deploy
- - wide range: many deployable devices
+ - the project is easy to deploy
+ - the project has a wide range, so it is deployable on many devices
 - Developer
- - minimal configuration
- - easy integration: unambiguous API
+ - the project is setup with minimal configuration
+ - the project is easy to integrate e.g. through an unambiguous API and Documentation
 - Customer
- - easy access
- - absolute security
+ - the access to the web-server is easy and convenient
+ - the project brings absolute security
 
 ### 1.3 Scope
 This test plan applies to Data and Database Integrity Testing, Unit Testing, Function Testing, Business Cycle Testing, User Interface Testing, Performance Testing, Load Testing, Stress Testing, Security & Access Testing, API Testing, Configuration Testing and Installation Testing. All these tests will be conducted in this iteration. Information regarding the aim of these tests can be find in Section 2 (Requirements for Test).
@@ -88,7 +88,7 @@ The listing below (uses cases, functional-requirements and non-functional-requir
 
 ### 2.6 Performance Testing
 - 2.6.1 Verify start of web-server in a reasonable time.
-- 2.6.2 Performance Profiling of responses from web-server deployed in different OS-environments.
+- 2.6.2 Performance Profiling of responses from web-server.
 - 2.6.3 Verify web-server response when accessing it from various IoT-Devices in a LAN.
 
 ### 2.7 Load Testing
@@ -124,7 +124,9 @@ This section will describe *how* it will be tested.The main considerations for t
 #### 3.1.1 Data Integrity Testing
 The data access and process should be tested within the running system. The retrieval of data can be tested in an automated suite, while the integrity and correctness must be tested manually.
 
-![Data_Integrity_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png)
+![Data_Integrity_Testing][TestImage]
+
+[TestImage]: https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/DataIntegrityTesting.png
 
 #### 3.1.2 Unit Testing
 ![Unit_Testing](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test_Strategies_Tables/UnitTesting.png "Inline style")
@@ -408,7 +410,7 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 #### Test case 3.3, verifying server behavior in a LAN
-![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3.PNG "Inline style")
+![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3.png "Inline style")
 
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
@@ -682,11 +684,11 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 ***
 
 #### Test case 3.3, verifying server behavior in a LAN
-![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestResult3.3.PNG "Inline style")
+![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestResult3.3.png "Inline style")
 
 **Output**
 
-![TestResut](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3Additional.PNG "Inline style")
+![TestResut](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3Additional.png "Inline style")
 
 
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
