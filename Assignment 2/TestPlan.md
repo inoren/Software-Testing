@@ -673,30 +673,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-#### Test case 2.9, Run existing Integration-Tests
-
-![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
-
-**Output**
-
-![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
-
-***
-
-#### Test case 3.0, Acess log viewable (Req. 2.3.3)
-
-![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
-
-***
-
-#### Test case 3.3, verifying server behavior in a LAN
-![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestResult3.3.png "Inline style")
-
-**Output**
-
-![TestResut](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3Additional.png "Inline style")
-
-
 ### Unit Testing (Req. 2.2.1 & 2.2.2)
 
 #### Test case 2.5, Existing Unit Tests run
@@ -706,6 +682,13 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 **Output**
 
 ![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/UnitTests/Test Case 2.5/TestCase2.5Additional.png "Inline style")
+
+***
+
+### Performance Profiling
+#### Test case 2.4, Confirm the performance is stable
+
+![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
 
 ***
 
@@ -738,33 +721,42 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-### Performance Profiling
+#### Test case 2.9, Run existing Integration-Tests
 
-#### Test case 2.4, Confirm the performance is stable
+![TestCase2.9](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestResult2.9.png "Inline style")
 
-![TestCase2.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Test%20Case%202.4/TestCase2.4.PNG "Test Case 2.4")
+**Output**
+
+![TestRuns](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/IntegrationTests/Test Case 2.9/TestCase2.9Additional.png "Inline style")
 
 ***
 
-#### Test case 3.4, Access time in LAN
+#### Test case 3.0, Acess log viewable (Req. 2.3.3)
 
-![TestResult3.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestResult3.4.png)
+![TestCase3.0](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.0/TestCase3.0.PNG "TestCase 3.0")
+
+***
+
+#### Test case 3.1, HTTP 1.1 error messages (Req. 2.3.2)
+**200**
+![TestReport3.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestReport3.1_200.PNG "TestReport 3.1")
+
+**404**
+![TestReport3.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestReport3.1_404.PNG "TestReport 3.1")
+
+**405**
+![TestReport3.1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.1/TestReport3.1_405.PNG "TestReport 3.1")
+
+***
+
+#### Test case 3.3, verifying server behavior in a LAN
+![TestCase3.3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestResult3.3.png "Inline style")
 
 **Output**
-![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestCase3.4Additional.png)
 
-#### Test Case 4.8 Verify loading of page in a reasonable time
-![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Actual.png "Inline style")
+![TestResut](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Function%20Testing/Test%20Case%203.3/TestCase3.3Additional.png "Inline style")
 
-**Output 1**
-![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result1.png "Inline style")
-**Output 2**
-![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result2.png "Inline style")
-**Output 3**
-![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result3.png "Inline style")
-
-**
-
+***
 
 ### Load Testing (Req. 2.7.1)
 #### Test case 3.2
@@ -775,6 +767,14 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
+#### Test case 3.4, Access time in LAN
+
+![TestResult3.4](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestResult3.4.png)
+
+**Output**
+![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Performance%20Testing/Test%20Case%203.4/TestCase3.4Additional.png)
+
+***
 
 ### Data and Integrity Testing (Req. 2.1.1, 2.1.2 & 2.1.3)
 ### Test case 4.1, Browser must show 404 Not found error
@@ -833,7 +833,6 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-
 ### Test case 4.6, Verify correct retrieval of data from the shared resource folder
 ![TestCase4.6](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Data and Integrity Testing/Test Case 4.6/TestCase4.6Actual.png "Inline style")
 
@@ -846,12 +845,23 @@ The first iteration is set from the 21/12/2016 until the 23/12/2016.
 
 ***
 
-
 #### Test Case 4.7, Verify simultaneous connections on the server
 ![TestCase4.7](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Data%20and%20Integrity%20Testing/Test%20Case%204.7/TestCase4.7actual.PNG "TestCase 4.7")
 
 **Output**
 ![Result](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test%20Cases/Data%20and%20Integrity%20Testing/Test%20Case%204.7/output.PNG "TestCase 4.7")
+
+***
+
+#### Test Case 4.8 Verify loading of page in a reasonable time
+![TestCase4.8](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/TestCase4.8Actual.png "Inline style")
+
+**Output 1**
+![Result1](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result1.png "Inline style")
+**Output 2**
+![Result2](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result2.png "Inline style")
+**Output 3**
+![Result3](https://github.com/onkelhoy/Software-Testing/blob/master/Assignment%202/Resources/Test Cases/Performance Testing/Test Case 4.8/Result3.png "Inline style")
 
 ***
 
